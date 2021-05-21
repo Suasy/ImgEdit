@@ -8,3 +8,4 @@ D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.csproj.GenerateResource.
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.csproj.CoreCompileInputs.cache
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.exe
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.pdb
+D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.Form2.resources

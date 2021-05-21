@@ -26,7 +26,7 @@ namespace ImgEdit
         {
             //显示字体对话框
             DialogResult dr = fontDialog1.ShowDialog();
-            //如果在对话框中单击“确认”按钮，则更改文本框中的字体
+            //如果在对话框中单击“确认”按钮
             if (dr == DialogResult.OK)
             {
                 label10.Text = fontDialog1.Font.Name;
@@ -37,7 +37,7 @@ namespace ImgEdit
         {
             //显示颜色对话框
             DialogResult dr = colorDialog1.ShowDialog();
-            //如果在对话框中单击“确认”按钮，则更改文本框中的字体
+            //如果在对话框中单击“确认”按钮
             if (dr == DialogResult.OK)
             {
                 radioButton16.Text = colorDialog1.Color.Name;
@@ -59,7 +59,7 @@ namespace ImgEdit
         {
             //显示文件对话框
             DialogResult dr = openFileDialog1.ShowDialog();
-            //如果在对话框中单击“确认”按钮，则更改文本框中的字体
+            //如果在对话框中单击“确认”按钮
             if (dr == DialogResult.OK)
             {
                 //openFileDialog1.FileName;
@@ -70,14 +70,30 @@ namespace ImgEdit
         {
             //显示文件对话框
             DialogResult dr = saveFileDialog1.ShowDialog();
-            //如果在对话框中单击“确认”按钮，则更改文本框中的字体
+            //如果在对话框中单击“确认”按钮
             if (dr == DialogResult.OK)
             {
-                //openFileDialog1.FileName;
+                //saveFileDialog1.FileName;
             }
         }
 
         private void 插入ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
