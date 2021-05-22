@@ -630,7 +630,7 @@
         0lS0dNKzgk+zH82dMuKM3kPZ8X+122CDDTb8v0Eg+A9QIK0QB+l4NQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxImg.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEASABIAAD/4QT4RXhpZgAATU0AKgAAAAgADgEAAAQAAAABAAAMwAEBAAQAAAAB
         AAAJkAECAAMAAAADAAAAtgEOAAIAAAAFAAAAvAEPAAIAAAAHAAAAwgEQAAIAAAAJAAAAygEaAAUAAAAB

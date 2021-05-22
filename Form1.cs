@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ImgEdit
 {
-    public partial class Form1 : Form
+    public partial class FormImgEdit : Form
     {
-        public Form1()
+        public FormImgEdit()
         {
             InitializeComponent();
         }
@@ -29,7 +29,7 @@ namespace ImgEdit
             //如果在对话框中单击“确认”按钮
             if (dr == DialogResult.OK)
             {
-                label10.Text = fontDialog1.Font.Name;
+                lblFont.Text = fontDialog1.Font.Name;
             }
         }
 
@@ -40,7 +40,7 @@ namespace ImgEdit
             //如果在对话框中单击“确认”按钮
             if (dr == DialogResult.OK)
             {
-                radioButton16.Text = colorDialog1.Color.Name;
+                rbtBOthColor.Text = colorDialog1.Color.Name;
             }
         }
 
@@ -94,6 +94,16 @@ namespace ImgEdit
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 文件ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }

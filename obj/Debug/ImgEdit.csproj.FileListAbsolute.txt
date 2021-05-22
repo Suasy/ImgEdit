@@ -2,10 +2,10 @@ D:\Study\ProgramStudy\C#Study\ImgEdit\bin\Debug\ImgEdit.exe.config
 D:\Study\ProgramStudy\C#Study\ImgEdit\bin\Debug\ImgEdit.exe
 D:\Study\ProgramStudy\C#Study\ImgEdit\bin\Debug\ImgEdit.pdb
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.csprojAssemblyReference.cache
-D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.Form1.resources
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.Properties.Resources.resources
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.csproj.GenerateResource.cache
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.csproj.CoreCompileInputs.cache
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.exe
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.pdb
 D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.Form2.resources
+D:\Study\ProgramStudy\C#Study\ImgEdit\obj\Debug\ImgEdit.FormImgEdit.resources

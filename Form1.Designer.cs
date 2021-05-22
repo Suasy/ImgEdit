@@ -1,6 +1,6 @@
 namespace ImgEdit
 {
-    partial class Form1
+    partial class FormImgEdit
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,76 +28,76 @@ namespace ImgEdit
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormImgEdit));
+            this.tctrlOper = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label5 = new System.Windows.Forms.Label();
-            this.trackBar5 = new System.Windows.Forms.TrackBar();
+            this.tkbSD = new System.Windows.Forms.TrackBar();
             this.label4 = new System.Windows.Forms.Label();
-            this.trackBar4 = new System.Windows.Forms.TrackBar();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.tkbHD = new System.Windows.Forms.TrackBar();
+            this.gbxFilter = new System.Windows.Forms.GroupBox();
+            this.rbtJM = new System.Windows.Forms.RadioButton();
+            this.rbtMH = new System.Windows.Forms.RadioButton();
+            this.rbtZR = new System.Windows.Forms.RadioButton();
+            this.rbtQC = new System.Windows.Forms.RadioButton();
+            this.rbtFD = new System.Windows.Forms.RadioButton();
+            this.rbtHB = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.trackBar3 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
+            this.tkbDBD = new System.Windows.Forms.TrackBar();
+            this.tkbLD = new System.Windows.Forms.TrackBar();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton16 = new System.Windows.Forms.RadioButton();
-            this.radioButton15 = new System.Windows.Forms.RadioButton();
-            this.radioButton14 = new System.Windows.Forms.RadioButton();
-            this.radioButton13 = new System.Windows.Forms.RadioButton();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.gbxBColor = new System.Windows.Forms.GroupBox();
+            this.rbtBOthColor = new System.Windows.Forms.RadioButton();
+            this.rbtBMosaic = new System.Windows.Forms.RadioButton();
+            this.rbtBPurple = new System.Windows.Forms.RadioButton();
+            this.rbtBWhite = new System.Windows.Forms.RadioButton();
+            this.rbtBGreen = new System.Windows.Forms.RadioButton();
+            this.rbtBYellow = new System.Windows.Forms.RadioButton();
+            this.rbtBBlack = new System.Windows.Forms.RadioButton();
+            this.rbtBRed = new System.Windows.Forms.RadioButton();
+            this.gbxBrush = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.trackBar8 = new System.Windows.Forms.TrackBar();
-            this.trackBar7 = new System.Windows.Forms.TrackBar();
+            this.lblBTMDValue = new System.Windows.Forms.Label();
+            this.lblBSizeValue = new System.Windows.Forms.Label();
+            this.rbtEraser = new System.Windows.Forms.RadioButton();
+            this.rbtBrush = new System.Windows.Forms.RadioButton();
+            this.tkbBSize = new System.Windows.Forms.TrackBar();
+            this.tkbBTMD = new System.Windows.Forms.TrackBar();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.button7 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.radioButton17 = new System.Windows.Forms.RadioButton();
-            this.radioButton18 = new System.Windows.Forms.RadioButton();
-            this.radioButton19 = new System.Windows.Forms.RadioButton();
-            this.radioButton20 = new System.Windows.Forms.RadioButton();
-            this.radioButton21 = new System.Windows.Forms.RadioButton();
-            this.radioButton22 = new System.Windows.Forms.RadioButton();
-            this.radioButton23 = new System.Windows.Forms.RadioButton();
-            this.radioButton24 = new System.Windows.Forms.RadioButton();
+            this.btnChsFont = new System.Windows.Forms.Button();
+            this.lblFSize = new System.Windows.Forms.Label();
+            this.lblFont = new System.Windows.Forms.Label();
+            this.tbxText = new System.Windows.Forms.TextBox();
+            this.btnGenText = new System.Windows.Forms.Button();
+            this.gbxFColor = new System.Windows.Forms.GroupBox();
+            this.rbtFOthColor = new System.Windows.Forms.RadioButton();
+            this.rbtFBrown = new System.Windows.Forms.RadioButton();
+            this.rbtFPurple = new System.Windows.Forms.RadioButton();
+            this.rbtFWhite = new System.Windows.Forms.RadioButton();
+            this.rbtFGreen = new System.Windows.Forms.RadioButton();
+            this.rbtFYellow = new System.Windows.Forms.RadioButton();
+            this.rbtFBlack = new System.Windows.Forms.RadioButton();
+            this.rbtFRed = new System.Windows.Forms.RadioButton();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.gbxBubble = new System.Windows.Forms.GroupBox();
             this.radioButton25 = new System.Windows.Forms.RadioButton();
             this.radioButton26 = new System.Windows.Forms.RadioButton();
             this.radioButton27 = new System.Windows.Forms.RadioButton();
             this.radioButton28 = new System.Windows.Forms.RadioButton();
             this.radioButton29 = new System.Windows.Forms.RadioButton();
             this.radioButton30 = new System.Windows.Forms.RadioButton();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.gbxCartoon = new System.Windows.Forms.GroupBox();
             this.radioButton31 = new System.Windows.Forms.RadioButton();
             this.radioButton32 = new System.Windows.Forms.RadioButton();
             this.radioButton33 = new System.Windows.Forms.RadioButton();
             this.radioButton34 = new System.Windows.Forms.RadioButton();
             this.radioButton35 = new System.Windows.Forms.RadioButton();
             this.radioButton36 = new System.Windows.Forms.RadioButton();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tkbESize = new System.Windows.Forms.TrackBar();
+            this.lblESizeValue = new System.Windows.Forms.Label();
+            this.pbxImg = new System.Windows.Forms.PictureBox();
             this.文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.新建ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.打开ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -115,63 +115,71 @@ namespace ImgEdit
             this.查看帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnESelfAdp = new System.Windows.Forms.Button();
+            this.btnEOriSize = new System.Windows.Forms.Button();
+            this.btnRotationL = new System.Windows.Forms.Button();
+            this.btnRotationR = new System.Windows.Forms.Button();
+            this.btnFlip = new System.Windows.Forms.Button();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.button8 = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
+            this.btnEnterBatch = new System.Windows.Forms.Button();
+            this.lblSDValue = new System.Windows.Forms.Label();
+            this.lblHDValue = new System.Windows.Forms.Label();
+            this.lblDBDValue = new System.Windows.Forms.Label();
+            this.lblLDValue = new System.Windows.Forms.Label();
+            this.tctrlOper.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbSD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbHD)).BeginInit();
+            this.gbxFilter.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbDBD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbLD)).BeginInit();
             this.tabPage2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).BeginInit();
+            this.gbxBColor.SuspendLayout();
+            this.gbxBrush.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbBSize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbBTMD)).BeginInit();
             this.tabPage3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.gbxFColor.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.gbxBubble.SuspendLayout();
+            this.gbxCartoon.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbESize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxImg)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tctrlOper
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 42);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabControl1.Multiline = true;
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(293, 571);
-            this.tabControl1.TabIndex = 0;
+            this.tctrlOper.Controls.Add(this.tabPage1);
+            this.tctrlOper.Controls.Add(this.tabPage2);
+            this.tctrlOper.Controls.Add(this.tabPage3);
+            this.tctrlOper.Controls.Add(this.tabPage4);
+            this.tctrlOper.Location = new System.Drawing.Point(12, 42);
+            this.tctrlOper.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tctrlOper.Multiline = true;
+            this.tctrlOper.Name = "tctrlOper";
+            this.tctrlOper.SelectedIndex = 0;
+            this.tctrlOper.Size = new System.Drawing.Size(293, 571);
+            this.tctrlOper.TabIndex = 0;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.lblSDValue);
+            this.tabPage1.Controls.Add(this.lblHDValue);
+            this.tabPage1.Controls.Add(this.lblDBDValue);
+            this.tabPage1.Controls.Add(this.lblLDValue);
             this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.trackBar5);
+            this.tabPage1.Controls.Add(this.tkbSD);
             this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.trackBar4);
-            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Controls.Add(this.tkbHD);
+            this.tabPage1.Controls.Add(this.gbxFilter);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.trackBar3);
-            this.tabPage1.Controls.Add(this.trackBar2);
+            this.tabPage1.Controls.Add(this.tkbDBD);
+            this.tabPage1.Controls.Add(this.tkbLD);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage1.Name = "tabPage1";
@@ -184,136 +192,136 @@ namespace ImgEdit
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(28, 190);
+            this.label5.Location = new System.Drawing.Point(22, 188);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 15);
             this.label5.TabIndex = 17;
             this.label5.Text = "色调";
             // 
-            // trackBar5
+            // tkbSD
             // 
-            this.trackBar5.AutoSize = false;
-            this.trackBar5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.trackBar5.Location = new System.Drawing.Point(89, 182);
-            this.trackBar5.Margin = new System.Windows.Forms.Padding(4);
-            this.trackBar5.Name = "trackBar5";
-            this.trackBar5.Size = new System.Drawing.Size(169, 36);
-            this.trackBar5.TabIndex = 16;
-            this.trackBar5.Value = 5;
+            this.tkbSD.AutoSize = false;
+            this.tkbSD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tkbSD.Location = new System.Drawing.Point(65, 182);
+            this.tkbSD.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbSD.Name = "tkbSD";
+            this.tkbSD.Size = new System.Drawing.Size(169, 36);
+            this.tkbSD.TabIndex = 16;
+            this.tkbSD.Value = 5;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 134);
+            this.label4.Location = new System.Drawing.Point(22, 132);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 15);
             this.label4.TabIndex = 15;
             this.label4.Text = "灰度";
             // 
-            // trackBar4
+            // tkbHD
             // 
-            this.trackBar4.AutoSize = false;
-            this.trackBar4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.trackBar4.Location = new System.Drawing.Point(89, 126);
-            this.trackBar4.Margin = new System.Windows.Forms.Padding(4);
-            this.trackBar4.Name = "trackBar4";
-            this.trackBar4.Size = new System.Drawing.Size(169, 36);
-            this.trackBar4.TabIndex = 14;
-            this.trackBar4.Value = 5;
+            this.tkbHD.AutoSize = false;
+            this.tkbHD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tkbHD.Location = new System.Drawing.Point(65, 126);
+            this.tkbHD.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbHD.Name = "tkbHD";
+            this.tkbHD.Size = new System.Drawing.Size(169, 36);
+            this.tkbHD.TabIndex = 14;
+            this.tkbHD.Value = 5;
             // 
-            // groupBox1
+            // gbxFilter
             // 
-            this.groupBox1.Controls.Add(this.radioButton6);
-            this.groupBox1.Controls.Add(this.radioButton5);
-            this.groupBox1.Controls.Add(this.radioButton4);
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(20, 239);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(239, 294);
-            this.groupBox1.TabIndex = 13;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "滤镜";
+            this.gbxFilter.Controls.Add(this.rbtJM);
+            this.gbxFilter.Controls.Add(this.rbtMH);
+            this.gbxFilter.Controls.Add(this.rbtZR);
+            this.gbxFilter.Controls.Add(this.rbtQC);
+            this.gbxFilter.Controls.Add(this.rbtFD);
+            this.gbxFilter.Controls.Add(this.rbtHB);
+            this.gbxFilter.Location = new System.Drawing.Point(20, 239);
+            this.gbxFilter.Margin = new System.Windows.Forms.Padding(4);
+            this.gbxFilter.Name = "gbxFilter";
+            this.gbxFilter.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxFilter.Size = new System.Drawing.Size(239, 294);
+            this.gbxFilter.TabIndex = 13;
+            this.gbxFilter.TabStop = false;
+            this.gbxFilter.Text = "滤镜";
             // 
-            // radioButton6
+            // rbtJM
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(119, 141);
-            this.radioButton6.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(58, 19);
-            this.radioButton6.TabIndex = 5;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "静谧";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rbtJM.AutoSize = true;
+            this.rbtJM.Location = new System.Drawing.Point(119, 141);
+            this.rbtJM.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtJM.Name = "rbtJM";
+            this.rbtJM.Size = new System.Drawing.Size(58, 19);
+            this.rbtJM.TabIndex = 5;
+            this.rbtJM.TabStop = true;
+            this.rbtJM.Text = "静谧";
+            this.rbtJM.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // rbtMH
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(23, 141);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(58, 19);
-            this.radioButton5.TabIndex = 4;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "模糊";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rbtMH.AutoSize = true;
+            this.rbtMH.Location = new System.Drawing.Point(23, 141);
+            this.rbtMH.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtMH.Name = "rbtMH";
+            this.rbtMH.Size = new System.Drawing.Size(58, 19);
+            this.rbtMH.TabIndex = 4;
+            this.rbtMH.TabStop = true;
+            this.rbtMH.Text = "模糊";
+            this.rbtMH.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rbtZR
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(119, 44);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(58, 19);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "自然";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbtZR.AutoSize = true;
+            this.rbtZR.Location = new System.Drawing.Point(119, 44);
+            this.rbtZR.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtZR.Name = "rbtZR";
+            this.rbtZR.Size = new System.Drawing.Size(58, 19);
+            this.rbtZR.TabIndex = 3;
+            this.rbtZR.TabStop = true;
+            this.rbtZR.Text = "自然";
+            this.rbtZR.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rbtQC
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(119, 91);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(58, 19);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "青春";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbtQC.AutoSize = true;
+            this.rbtQC.Location = new System.Drawing.Point(119, 91);
+            this.rbtQC.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtQC.Name = "rbtQC";
+            this.rbtQC.Size = new System.Drawing.Size(58, 19);
+            this.rbtQC.TabIndex = 2;
+            this.rbtQC.TabStop = true;
+            this.rbtQC.Text = "青春";
+            this.rbtQC.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbtFD
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(23, 91);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(58, 19);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "浮雕";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbtFD.AutoSize = true;
+            this.rbtFD.Location = new System.Drawing.Point(23, 91);
+            this.rbtFD.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtFD.Name = "rbtFD";
+            this.rbtFD.Size = new System.Drawing.Size(58, 19);
+            this.rbtFD.TabIndex = 1;
+            this.rbtFD.TabStop = true;
+            this.rbtFD.Text = "浮雕";
+            this.rbtFD.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rbtHB
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(23, 44);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(58, 19);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "黑白";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbtHB.AutoSize = true;
+            this.rbtHB.Location = new System.Drawing.Point(23, 44);
+            this.rbtHB.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtHB.Name = "rbtHB";
+            this.rbtHB.Size = new System.Drawing.Size(58, 19);
+            this.rbtHB.TabIndex = 0;
+            this.rbtHB.TabStop = true;
+            this.rbtHB.Text = "黑白";
+            this.rbtHB.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 81);
+            this.label3.Location = new System.Drawing.Point(13, 79);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 15);
             this.label3.TabIndex = 12;
@@ -322,38 +330,38 @@ namespace ImgEdit
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 30);
+            this.label1.Location = new System.Drawing.Point(25, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 15);
             this.label1.TabIndex = 11;
             this.label1.Text = "亮度";
             // 
-            // trackBar3
+            // tkbDBD
             // 
-            this.trackBar3.AutoSize = false;
-            this.trackBar3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.trackBar3.Location = new System.Drawing.Point(89, 74);
-            this.trackBar3.Margin = new System.Windows.Forms.Padding(4);
-            this.trackBar3.Name = "trackBar3";
-            this.trackBar3.Size = new System.Drawing.Size(169, 36);
-            this.trackBar3.TabIndex = 1;
-            this.trackBar3.Value = 5;
+            this.tkbDBD.AutoSize = false;
+            this.tkbDBD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tkbDBD.Location = new System.Drawing.Point(65, 74);
+            this.tkbDBD.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbDBD.Name = "tkbDBD";
+            this.tkbDBD.Size = new System.Drawing.Size(169, 36);
+            this.tkbDBD.TabIndex = 1;
+            this.tkbDBD.Value = 5;
             // 
-            // trackBar2
+            // tkbLD
             // 
-            this.trackBar2.AutoSize = false;
-            this.trackBar2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.trackBar2.Location = new System.Drawing.Point(89, 22);
-            this.trackBar2.Margin = new System.Windows.Forms.Padding(4);
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(169, 41);
-            this.trackBar2.TabIndex = 0;
-            this.trackBar2.Value = 5;
+            this.tkbLD.AutoSize = false;
+            this.tkbLD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tkbLD.Location = new System.Drawing.Point(65, 22);
+            this.tkbLD.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbLD.Name = "tkbLD";
+            this.tkbLD.Size = new System.Drawing.Size(169, 41);
+            this.tkbLD.TabIndex = 0;
+            this.tkbLD.Value = 5;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.groupBox3);
-            this.tabPage2.Controls.Add(this.groupBox2);
+            this.tabPage2.Controls.Add(this.gbxBColor);
+            this.tabPage2.Controls.Add(this.gbxBrush);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
@@ -363,140 +371,140 @@ namespace ImgEdit
             this.tabPage2.Text = "涂鸦";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // groupBox3
+            // gbxBColor
             // 
-            this.groupBox3.Controls.Add(this.radioButton16);
-            this.groupBox3.Controls.Add(this.radioButton15);
-            this.groupBox3.Controls.Add(this.radioButton14);
-            this.groupBox3.Controls.Add(this.radioButton13);
-            this.groupBox3.Controls.Add(this.radioButton12);
-            this.groupBox3.Controls.Add(this.radioButton11);
-            this.groupBox3.Controls.Add(this.radioButton10);
-            this.groupBox3.Controls.Add(this.radioButton9);
-            this.groupBox3.Location = new System.Drawing.Point(9, 236);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(269, 276);
-            this.groupBox3.TabIndex = 1;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "画笔选择";
+            this.gbxBColor.Controls.Add(this.rbtBOthColor);
+            this.gbxBColor.Controls.Add(this.rbtBMosaic);
+            this.gbxBColor.Controls.Add(this.rbtBPurple);
+            this.gbxBColor.Controls.Add(this.rbtBWhite);
+            this.gbxBColor.Controls.Add(this.rbtBGreen);
+            this.gbxBColor.Controls.Add(this.rbtBYellow);
+            this.gbxBColor.Controls.Add(this.rbtBBlack);
+            this.gbxBColor.Controls.Add(this.rbtBRed);
+            this.gbxBColor.Location = new System.Drawing.Point(9, 236);
+            this.gbxBColor.Margin = new System.Windows.Forms.Padding(4);
+            this.gbxBColor.Name = "gbxBColor";
+            this.gbxBColor.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxBColor.Size = new System.Drawing.Size(269, 276);
+            this.gbxBColor.TabIndex = 1;
+            this.gbxBColor.TabStop = false;
+            this.gbxBColor.Text = "画笔选择";
             // 
-            // radioButton16
+            // rbtBOthColor
             // 
-            this.radioButton16.AutoSize = true;
-            this.radioButton16.Location = new System.Drawing.Point(152, 211);
-            this.radioButton16.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(88, 19);
-            this.radioButton16.TabIndex = 12;
-            this.radioButton16.TabStop = true;
-            this.radioButton16.Text = "其他颜色";
-            this.radioButton16.UseVisualStyleBackColor = true;
-            this.radioButton16.CheckedChanged += new System.EventHandler(this.radioButton16_CheckedChanged);
+            this.rbtBOthColor.AutoSize = true;
+            this.rbtBOthColor.Location = new System.Drawing.Point(152, 211);
+            this.rbtBOthColor.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtBOthColor.Name = "rbtBOthColor";
+            this.rbtBOthColor.Size = new System.Drawing.Size(88, 19);
+            this.rbtBOthColor.TabIndex = 12;
+            this.rbtBOthColor.TabStop = true;
+            this.rbtBOthColor.Text = "其他颜色";
+            this.rbtBOthColor.UseVisualStyleBackColor = true;
+            this.rbtBOthColor.CheckedChanged += new System.EventHandler(this.radioButton16_CheckedChanged);
             // 
-            // radioButton15
+            // rbtBMosaic
             // 
-            this.radioButton15.AutoSize = true;
-            this.radioButton15.Location = new System.Drawing.Point(31, 211);
-            this.radioButton15.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(73, 19);
-            this.radioButton15.TabIndex = 11;
-            this.radioButton15.TabStop = true;
-            this.radioButton15.Text = "马赛克";
-            this.radioButton15.UseVisualStyleBackColor = true;
+            this.rbtBMosaic.AutoSize = true;
+            this.rbtBMosaic.Location = new System.Drawing.Point(31, 211);
+            this.rbtBMosaic.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtBMosaic.Name = "rbtBMosaic";
+            this.rbtBMosaic.Size = new System.Drawing.Size(73, 19);
+            this.rbtBMosaic.TabIndex = 11;
+            this.rbtBMosaic.TabStop = true;
+            this.rbtBMosaic.Text = "马赛克";
+            this.rbtBMosaic.UseVisualStyleBackColor = true;
             // 
-            // radioButton14
+            // rbtBPurple
             // 
-            this.radioButton14.AutoSize = true;
-            this.radioButton14.Location = new System.Drawing.Point(152, 151);
-            this.radioButton14.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(58, 19);
-            this.radioButton14.TabIndex = 10;
-            this.radioButton14.TabStop = true;
-            this.radioButton14.Text = "紫色";
-            this.radioButton14.UseVisualStyleBackColor = true;
+            this.rbtBPurple.AutoSize = true;
+            this.rbtBPurple.Location = new System.Drawing.Point(152, 151);
+            this.rbtBPurple.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtBPurple.Name = "rbtBPurple";
+            this.rbtBPurple.Size = new System.Drawing.Size(58, 19);
+            this.rbtBPurple.TabIndex = 10;
+            this.rbtBPurple.TabStop = true;
+            this.rbtBPurple.Text = "紫色";
+            this.rbtBPurple.UseVisualStyleBackColor = true;
             // 
-            // radioButton13
+            // rbtBWhite
             // 
-            this.radioButton13.AutoSize = true;
-            this.radioButton13.Location = new System.Drawing.Point(31, 151);
-            this.radioButton13.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(58, 19);
-            this.radioButton13.TabIndex = 9;
-            this.radioButton13.TabStop = true;
-            this.radioButton13.Text = "白色";
-            this.radioButton13.UseVisualStyleBackColor = true;
+            this.rbtBWhite.AutoSize = true;
+            this.rbtBWhite.Location = new System.Drawing.Point(31, 151);
+            this.rbtBWhite.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtBWhite.Name = "rbtBWhite";
+            this.rbtBWhite.Size = new System.Drawing.Size(58, 19);
+            this.rbtBWhite.TabIndex = 9;
+            this.rbtBWhite.TabStop = true;
+            this.rbtBWhite.Text = "白色";
+            this.rbtBWhite.UseVisualStyleBackColor = true;
             // 
-            // radioButton12
+            // rbtBGreen
             // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(152, 96);
-            this.radioButton12.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(58, 19);
-            this.radioButton12.TabIndex = 8;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "绿色";
-            this.radioButton12.UseVisualStyleBackColor = true;
+            this.rbtBGreen.AutoSize = true;
+            this.rbtBGreen.Location = new System.Drawing.Point(152, 96);
+            this.rbtBGreen.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtBGreen.Name = "rbtBGreen";
+            this.rbtBGreen.Size = new System.Drawing.Size(58, 19);
+            this.rbtBGreen.TabIndex = 8;
+            this.rbtBGreen.TabStop = true;
+            this.rbtBGreen.Text = "绿色";
+            this.rbtBGreen.UseVisualStyleBackColor = true;
             // 
-            // radioButton11
+            // rbtBYellow
             // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(31, 96);
-            this.radioButton11.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(58, 19);
-            this.radioButton11.TabIndex = 7;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "黄色";
-            this.radioButton11.UseVisualStyleBackColor = true;
+            this.rbtBYellow.AutoSize = true;
+            this.rbtBYellow.Location = new System.Drawing.Point(31, 96);
+            this.rbtBYellow.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtBYellow.Name = "rbtBYellow";
+            this.rbtBYellow.Size = new System.Drawing.Size(58, 19);
+            this.rbtBYellow.TabIndex = 7;
+            this.rbtBYellow.TabStop = true;
+            this.rbtBYellow.Text = "黄色";
+            this.rbtBYellow.UseVisualStyleBackColor = true;
             // 
-            // radioButton10
+            // rbtBBlack
             // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(152, 41);
-            this.radioButton10.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(58, 19);
-            this.radioButton10.TabIndex = 6;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "黑色";
-            this.radioButton10.UseVisualStyleBackColor = true;
+            this.rbtBBlack.AutoSize = true;
+            this.rbtBBlack.Location = new System.Drawing.Point(152, 41);
+            this.rbtBBlack.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtBBlack.Name = "rbtBBlack";
+            this.rbtBBlack.Size = new System.Drawing.Size(58, 19);
+            this.rbtBBlack.TabIndex = 6;
+            this.rbtBBlack.TabStop = true;
+            this.rbtBBlack.Text = "黑色";
+            this.rbtBBlack.UseVisualStyleBackColor = true;
             // 
-            // radioButton9
+            // rbtBRed
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(31, 41);
-            this.radioButton9.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(58, 19);
-            this.radioButton9.TabIndex = 5;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "红色";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.rbtBRed.AutoSize = true;
+            this.rbtBRed.Location = new System.Drawing.Point(31, 41);
+            this.rbtBRed.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtBRed.Name = "rbtBRed";
+            this.rbtBRed.Size = new System.Drawing.Size(58, 19);
+            this.rbtBRed.TabIndex = 5;
+            this.rbtBRed.TabStop = true;
+            this.rbtBRed.Text = "红色";
+            this.rbtBRed.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
+            // gbxBrush
             // 
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.radioButton8);
-            this.groupBox2.Controls.Add(this.radioButton7);
-            this.groupBox2.Controls.Add(this.trackBar8);
-            this.groupBox2.Controls.Add(this.trackBar7);
-            this.groupBox2.Location = new System.Drawing.Point(9, 22);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(267, 192);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "基础";
+            this.gbxBrush.Controls.Add(this.label9);
+            this.gbxBrush.Controls.Add(this.label8);
+            this.gbxBrush.Controls.Add(this.lblBTMDValue);
+            this.gbxBrush.Controls.Add(this.lblBSizeValue);
+            this.gbxBrush.Controls.Add(this.rbtEraser);
+            this.gbxBrush.Controls.Add(this.rbtBrush);
+            this.gbxBrush.Controls.Add(this.tkbBSize);
+            this.gbxBrush.Controls.Add(this.tkbBTMD);
+            this.gbxBrush.Location = new System.Drawing.Point(9, 22);
+            this.gbxBrush.Margin = new System.Windows.Forms.Padding(4);
+            this.gbxBrush.Name = "gbxBrush";
+            this.gbxBrush.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxBrush.Size = new System.Drawing.Size(267, 192);
+            this.gbxBrush.TabIndex = 0;
+            this.gbxBrush.TabStop = false;
+            this.gbxBrush.Text = "基础";
             // 
             // label9
             // 
@@ -518,81 +526,81 @@ namespace ImgEdit
             this.label8.TabIndex = 8;
             this.label8.Text = "大小";
             // 
-            // label7
+            // lblBTMDValue
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(216, 136);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(31, 15);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "90%";
+            this.lblBTMDValue.AutoSize = true;
+            this.lblBTMDValue.Location = new System.Drawing.Point(216, 136);
+            this.lblBTMDValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBTMDValue.Name = "lblBTMDValue";
+            this.lblBTMDValue.Size = new System.Drawing.Size(31, 15);
+            this.lblBTMDValue.TabIndex = 7;
+            this.lblBTMDValue.Text = "90%";
             // 
-            // label6
+            // lblBSizeValue
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(219, 74);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(15, 15);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "5";
+            this.lblBSizeValue.AutoSize = true;
+            this.lblBSizeValue.Location = new System.Drawing.Point(219, 74);
+            this.lblBSizeValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBSizeValue.Name = "lblBSizeValue";
+            this.lblBSizeValue.Size = new System.Drawing.Size(15, 15);
+            this.lblBSizeValue.TabIndex = 6;
+            this.lblBSizeValue.Text = "5";
             // 
-            // radioButton8
+            // rbtEraser
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(152, 39);
-            this.radioButton8.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(73, 19);
-            this.radioButton8.TabIndex = 5;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "橡皮擦";
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.rbtEraser.AutoSize = true;
+            this.rbtEraser.Location = new System.Drawing.Point(152, 39);
+            this.rbtEraser.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtEraser.Name = "rbtEraser";
+            this.rbtEraser.Size = new System.Drawing.Size(73, 19);
+            this.rbtEraser.TabIndex = 5;
+            this.rbtEraser.TabStop = true;
+            this.rbtEraser.Text = "橡皮擦";
+            this.rbtEraser.UseVisualStyleBackColor = true;
             // 
-            // radioButton7
+            // rbtBrush
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(31, 39);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(58, 19);
-            this.radioButton7.TabIndex = 4;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "画笔";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.rbtBrush.AutoSize = true;
+            this.rbtBrush.Location = new System.Drawing.Point(31, 39);
+            this.rbtBrush.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtBrush.Name = "rbtBrush";
+            this.rbtBrush.Size = new System.Drawing.Size(58, 19);
+            this.rbtBrush.TabIndex = 4;
+            this.rbtBrush.TabStop = true;
+            this.rbtBrush.Text = "画笔";
+            this.rbtBrush.UseVisualStyleBackColor = true;
             // 
-            // trackBar8
+            // tkbBSize
             // 
-            this.trackBar8.AutoSize = false;
-            this.trackBar8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.trackBar8.Location = new System.Drawing.Point(8, 92);
-            this.trackBar8.Margin = new System.Windows.Forms.Padding(4);
-            this.trackBar8.Name = "trackBar8";
-            this.trackBar8.Size = new System.Drawing.Size(241, 30);
-            this.trackBar8.TabIndex = 3;
-            this.trackBar8.Value = 5;
+            this.tkbBSize.AutoSize = false;
+            this.tkbBSize.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tkbBSize.Location = new System.Drawing.Point(8, 92);
+            this.tkbBSize.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbBSize.Name = "tkbBSize";
+            this.tkbBSize.Size = new System.Drawing.Size(241, 30);
+            this.tkbBSize.TabIndex = 3;
+            this.tkbBSize.Value = 5;
             // 
-            // trackBar7
+            // tkbBTMD
             // 
-            this.trackBar7.AutoSize = false;
-            this.trackBar7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.trackBar7.Location = new System.Drawing.Point(8, 155);
-            this.trackBar7.Margin = new System.Windows.Forms.Padding(4);
-            this.trackBar7.Maximum = 100;
-            this.trackBar7.Name = "trackBar7";
-            this.trackBar7.Size = new System.Drawing.Size(241, 30);
-            this.trackBar7.TabIndex = 2;
-            this.trackBar7.Value = 90;
+            this.tkbBTMD.AutoSize = false;
+            this.tkbBTMD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tkbBTMD.Location = new System.Drawing.Point(8, 155);
+            this.tkbBTMD.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbBTMD.Maximum = 100;
+            this.tkbBTMD.Name = "tkbBTMD";
+            this.tkbBTMD.Size = new System.Drawing.Size(241, 30);
+            this.tkbBTMD.TabIndex = 2;
+            this.tkbBTMD.Value = 90;
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.button7);
-            this.tabPage3.Controls.Add(this.label11);
-            this.tabPage3.Controls.Add(this.label10);
-            this.tabPage3.Controls.Add(this.textBox1);
-            this.tabPage3.Controls.Add(this.button6);
-            this.tabPage3.Controls.Add(this.groupBox4);
+            this.tabPage3.Controls.Add(this.btnChsFont);
+            this.tabPage3.Controls.Add(this.lblFSize);
+            this.tabPage3.Controls.Add(this.lblFont);
+            this.tabPage3.Controls.Add(this.tbxText);
+            this.tabPage3.Controls.Add(this.btnGenText);
+            this.tabPage3.Controls.Add(this.gbxFColor);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
@@ -601,175 +609,175 @@ namespace ImgEdit
             this.tabPage3.Text = "文字";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnChsFont
             // 
-            this.button7.Location = new System.Drawing.Point(151, 264);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(100, 29);
-            this.button7.TabIndex = 15;
-            this.button7.Text = "选择字体";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnChsFont.Location = new System.Drawing.Point(151, 264);
+            this.btnChsFont.Margin = new System.Windows.Forms.Padding(4);
+            this.btnChsFont.Name = "btnChsFont";
+            this.btnChsFont.Size = new System.Drawing.Size(100, 29);
+            this.btnChsFont.TabIndex = 15;
+            this.btnChsFont.Text = "选择字体";
+            this.btnChsFont.UseVisualStyleBackColor = true;
+            this.btnChsFont.Click += new System.EventHandler(this.button7_Click);
             // 
-            // label11
+            // lblFSize
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(96, 270);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(39, 15);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "20pt";
+            this.lblFSize.AutoSize = true;
+            this.lblFSize.Location = new System.Drawing.Point(96, 270);
+            this.lblFSize.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFSize.Name = "lblFSize";
+            this.lblFSize.Size = new System.Drawing.Size(39, 15);
+            this.lblFSize.TabIndex = 14;
+            this.lblFSize.Text = "20pt";
             // 
-            // label10
+            // lblFont
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 270);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 15);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "微软雅黑";
+            this.lblFont.AutoSize = true;
+            this.lblFont.Location = new System.Drawing.Point(12, 270);
+            this.lblFont.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFont.Name = "lblFont";
+            this.lblFont.Size = new System.Drawing.Size(67, 15);
+            this.lblFont.TabIndex = 13;
+            this.lblFont.Text = "微软雅黑";
             // 
-            // textBox1
+            // tbxText
             // 
-            this.textBox1.Location = new System.Drawing.Point(35, 105);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 110);
-            this.textBox1.TabIndex = 12;
+            this.tbxText.Location = new System.Drawing.Point(35, 105);
+            this.tbxText.Margin = new System.Windows.Forms.Padding(4);
+            this.tbxText.Multiline = true;
+            this.tbxText.Name = "tbxText";
+            this.tbxText.Size = new System.Drawing.Size(195, 110);
+            this.tbxText.TabIndex = 12;
             // 
-            // button6
+            // btnGenText
             // 
-            this.button6.Location = new System.Drawing.Point(35, 49);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(196, 34);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "生成文字";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnGenText.Location = new System.Drawing.Point(35, 49);
+            this.btnGenText.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGenText.Name = "btnGenText";
+            this.btnGenText.Size = new System.Drawing.Size(196, 34);
+            this.btnGenText.TabIndex = 11;
+            this.btnGenText.Text = "生成文字";
+            this.btnGenText.UseVisualStyleBackColor = true;
             // 
-            // groupBox4
+            // gbxFColor
             // 
-            this.groupBox4.Controls.Add(this.radioButton17);
-            this.groupBox4.Controls.Add(this.radioButton18);
-            this.groupBox4.Controls.Add(this.radioButton19);
-            this.groupBox4.Controls.Add(this.radioButton20);
-            this.groupBox4.Controls.Add(this.radioButton21);
-            this.groupBox4.Controls.Add(this.radioButton22);
-            this.groupBox4.Controls.Add(this.radioButton23);
-            this.groupBox4.Controls.Add(this.radioButton24);
-            this.groupBox4.Location = new System.Drawing.Point(4, 340);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox4.Size = new System.Drawing.Size(269, 178);
-            this.groupBox4.TabIndex = 2;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "字体颜色";
+            this.gbxFColor.Controls.Add(this.rbtFOthColor);
+            this.gbxFColor.Controls.Add(this.rbtFBrown);
+            this.gbxFColor.Controls.Add(this.rbtFPurple);
+            this.gbxFColor.Controls.Add(this.rbtFWhite);
+            this.gbxFColor.Controls.Add(this.rbtFGreen);
+            this.gbxFColor.Controls.Add(this.rbtFYellow);
+            this.gbxFColor.Controls.Add(this.rbtFBlack);
+            this.gbxFColor.Controls.Add(this.rbtFRed);
+            this.gbxFColor.Location = new System.Drawing.Point(4, 340);
+            this.gbxFColor.Margin = new System.Windows.Forms.Padding(4);
+            this.gbxFColor.Name = "gbxFColor";
+            this.gbxFColor.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxFColor.Size = new System.Drawing.Size(269, 178);
+            this.gbxFColor.TabIndex = 2;
+            this.gbxFColor.TabStop = false;
+            this.gbxFColor.Text = "字体颜色";
             // 
-            // radioButton17
+            // rbtFOthColor
             // 
-            this.radioButton17.AutoSize = true;
-            this.radioButton17.Location = new System.Drawing.Point(152, 138);
-            this.radioButton17.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(88, 19);
-            this.radioButton17.TabIndex = 12;
-            this.radioButton17.TabStop = true;
-            this.radioButton17.Text = "其他颜色";
-            this.radioButton17.UseVisualStyleBackColor = true;
+            this.rbtFOthColor.AutoSize = true;
+            this.rbtFOthColor.Location = new System.Drawing.Point(152, 138);
+            this.rbtFOthColor.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtFOthColor.Name = "rbtFOthColor";
+            this.rbtFOthColor.Size = new System.Drawing.Size(88, 19);
+            this.rbtFOthColor.TabIndex = 12;
+            this.rbtFOthColor.TabStop = true;
+            this.rbtFOthColor.Text = "其他颜色";
+            this.rbtFOthColor.UseVisualStyleBackColor = true;
             // 
-            // radioButton18
+            // rbtFBrown
             // 
-            this.radioButton18.AutoSize = true;
-            this.radioButton18.Location = new System.Drawing.Point(31, 138);
-            this.radioButton18.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(58, 19);
-            this.radioButton18.TabIndex = 11;
-            this.radioButton18.TabStop = true;
-            this.radioButton18.Text = "棕色";
-            this.radioButton18.UseVisualStyleBackColor = true;
+            this.rbtFBrown.AutoSize = true;
+            this.rbtFBrown.Location = new System.Drawing.Point(31, 138);
+            this.rbtFBrown.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtFBrown.Name = "rbtFBrown";
+            this.rbtFBrown.Size = new System.Drawing.Size(58, 19);
+            this.rbtFBrown.TabIndex = 11;
+            this.rbtFBrown.TabStop = true;
+            this.rbtFBrown.Text = "棕色";
+            this.rbtFBrown.UseVisualStyleBackColor = true;
             // 
-            // radioButton19
+            // rbtFPurple
             // 
-            this.radioButton19.AutoSize = true;
-            this.radioButton19.Location = new System.Drawing.Point(152, 104);
-            this.radioButton19.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(58, 19);
-            this.radioButton19.TabIndex = 10;
-            this.radioButton19.TabStop = true;
-            this.radioButton19.Text = "紫色";
-            this.radioButton19.UseVisualStyleBackColor = true;
+            this.rbtFPurple.AutoSize = true;
+            this.rbtFPurple.Location = new System.Drawing.Point(152, 104);
+            this.rbtFPurple.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtFPurple.Name = "rbtFPurple";
+            this.rbtFPurple.Size = new System.Drawing.Size(58, 19);
+            this.rbtFPurple.TabIndex = 10;
+            this.rbtFPurple.TabStop = true;
+            this.rbtFPurple.Text = "紫色";
+            this.rbtFPurple.UseVisualStyleBackColor = true;
             // 
-            // radioButton20
+            // rbtFWhite
             // 
-            this.radioButton20.AutoSize = true;
-            this.radioButton20.Location = new System.Drawing.Point(31, 104);
-            this.radioButton20.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(58, 19);
-            this.radioButton20.TabIndex = 9;
-            this.radioButton20.TabStop = true;
-            this.radioButton20.Text = "白色";
-            this.radioButton20.UseVisualStyleBackColor = true;
+            this.rbtFWhite.AutoSize = true;
+            this.rbtFWhite.Location = new System.Drawing.Point(31, 104);
+            this.rbtFWhite.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtFWhite.Name = "rbtFWhite";
+            this.rbtFWhite.Size = new System.Drawing.Size(58, 19);
+            this.rbtFWhite.TabIndex = 9;
+            this.rbtFWhite.TabStop = true;
+            this.rbtFWhite.Text = "白色";
+            this.rbtFWhite.UseVisualStyleBackColor = true;
             // 
-            // radioButton21
+            // rbtFGreen
             // 
-            this.radioButton21.AutoSize = true;
-            this.radioButton21.Location = new System.Drawing.Point(152, 70);
-            this.radioButton21.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(58, 19);
-            this.radioButton21.TabIndex = 8;
-            this.radioButton21.TabStop = true;
-            this.radioButton21.Text = "绿色";
-            this.radioButton21.UseVisualStyleBackColor = true;
+            this.rbtFGreen.AutoSize = true;
+            this.rbtFGreen.Location = new System.Drawing.Point(152, 70);
+            this.rbtFGreen.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtFGreen.Name = "rbtFGreen";
+            this.rbtFGreen.Size = new System.Drawing.Size(58, 19);
+            this.rbtFGreen.TabIndex = 8;
+            this.rbtFGreen.TabStop = true;
+            this.rbtFGreen.Text = "绿色";
+            this.rbtFGreen.UseVisualStyleBackColor = true;
             // 
-            // radioButton22
+            // rbtFYellow
             // 
-            this.radioButton22.AutoSize = true;
-            this.radioButton22.Location = new System.Drawing.Point(31, 70);
-            this.radioButton22.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(58, 19);
-            this.radioButton22.TabIndex = 7;
-            this.radioButton22.TabStop = true;
-            this.radioButton22.Text = "黄色";
-            this.radioButton22.UseVisualStyleBackColor = true;
+            this.rbtFYellow.AutoSize = true;
+            this.rbtFYellow.Location = new System.Drawing.Point(31, 70);
+            this.rbtFYellow.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtFYellow.Name = "rbtFYellow";
+            this.rbtFYellow.Size = new System.Drawing.Size(58, 19);
+            this.rbtFYellow.TabIndex = 7;
+            this.rbtFYellow.TabStop = true;
+            this.rbtFYellow.Text = "黄色";
+            this.rbtFYellow.UseVisualStyleBackColor = true;
             // 
-            // radioButton23
+            // rbtFBlack
             // 
-            this.radioButton23.AutoSize = true;
-            this.radioButton23.Location = new System.Drawing.Point(152, 35);
-            this.radioButton23.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(58, 19);
-            this.radioButton23.TabIndex = 6;
-            this.radioButton23.TabStop = true;
-            this.radioButton23.Text = "黑色";
-            this.radioButton23.UseVisualStyleBackColor = true;
+            this.rbtFBlack.AutoSize = true;
+            this.rbtFBlack.Location = new System.Drawing.Point(152, 35);
+            this.rbtFBlack.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtFBlack.Name = "rbtFBlack";
+            this.rbtFBlack.Size = new System.Drawing.Size(58, 19);
+            this.rbtFBlack.TabIndex = 6;
+            this.rbtFBlack.TabStop = true;
+            this.rbtFBlack.Text = "黑色";
+            this.rbtFBlack.UseVisualStyleBackColor = true;
             // 
-            // radioButton24
+            // rbtFRed
             // 
-            this.radioButton24.AutoSize = true;
-            this.radioButton24.Location = new System.Drawing.Point(31, 35);
-            this.radioButton24.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(58, 19);
-            this.radioButton24.TabIndex = 5;
-            this.radioButton24.TabStop = true;
-            this.radioButton24.Text = "红色";
-            this.radioButton24.UseVisualStyleBackColor = true;
+            this.rbtFRed.AutoSize = true;
+            this.rbtFRed.Location = new System.Drawing.Point(31, 35);
+            this.rbtFRed.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtFRed.Name = "rbtFRed";
+            this.rbtFRed.Size = new System.Drawing.Size(58, 19);
+            this.rbtFRed.TabIndex = 5;
+            this.rbtFRed.TabStop = true;
+            this.rbtFRed.Text = "红色";
+            this.rbtFRed.UseVisualStyleBackColor = true;
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.groupBox5);
-            this.tabPage4.Controls.Add(this.groupBox6);
+            this.tabPage4.Controls.Add(this.gbxBubble);
+            this.tabPage4.Controls.Add(this.gbxCartoon);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage4.Name = "tabPage4";
@@ -778,22 +786,22 @@ namespace ImgEdit
             this.tabPage4.Text = "贴纸";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // groupBox5
+            // gbxBubble
             // 
-            this.groupBox5.Controls.Add(this.radioButton25);
-            this.groupBox5.Controls.Add(this.radioButton26);
-            this.groupBox5.Controls.Add(this.radioButton27);
-            this.groupBox5.Controls.Add(this.radioButton28);
-            this.groupBox5.Controls.Add(this.radioButton29);
-            this.groupBox5.Controls.Add(this.radioButton30);
-            this.groupBox5.Location = new System.Drawing.Point(4, 270);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox5.Size = new System.Drawing.Size(259, 240);
-            this.groupBox5.TabIndex = 16;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "气泡";
+            this.gbxBubble.Controls.Add(this.radioButton25);
+            this.gbxBubble.Controls.Add(this.radioButton26);
+            this.gbxBubble.Controls.Add(this.radioButton27);
+            this.gbxBubble.Controls.Add(this.radioButton28);
+            this.gbxBubble.Controls.Add(this.radioButton29);
+            this.gbxBubble.Controls.Add(this.radioButton30);
+            this.gbxBubble.Location = new System.Drawing.Point(4, 270);
+            this.gbxBubble.Margin = new System.Windows.Forms.Padding(4);
+            this.gbxBubble.Name = "gbxBubble";
+            this.gbxBubble.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxBubble.Size = new System.Drawing.Size(259, 240);
+            this.gbxBubble.TabIndex = 16;
+            this.gbxBubble.TabStop = false;
+            this.gbxBubble.Text = "气泡";
             // 
             // radioButton25
             // 
@@ -867,22 +875,22 @@ namespace ImgEdit
             this.radioButton30.TabStop = true;
             this.radioButton30.UseVisualStyleBackColor = true;
             // 
-            // groupBox6
+            // gbxCartoon
             // 
-            this.groupBox6.Controls.Add(this.radioButton31);
-            this.groupBox6.Controls.Add(this.radioButton32);
-            this.groupBox6.Controls.Add(this.radioButton33);
-            this.groupBox6.Controls.Add(this.radioButton34);
-            this.groupBox6.Controls.Add(this.radioButton35);
-            this.groupBox6.Controls.Add(this.radioButton36);
-            this.groupBox6.Location = new System.Drawing.Point(4, 22);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox6.Size = new System.Drawing.Size(259, 240);
-            this.groupBox6.TabIndex = 15;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "卡通";
+            this.gbxCartoon.Controls.Add(this.radioButton31);
+            this.gbxCartoon.Controls.Add(this.radioButton32);
+            this.gbxCartoon.Controls.Add(this.radioButton33);
+            this.gbxCartoon.Controls.Add(this.radioButton34);
+            this.gbxCartoon.Controls.Add(this.radioButton35);
+            this.gbxCartoon.Controls.Add(this.radioButton36);
+            this.gbxCartoon.Location = new System.Drawing.Point(4, 22);
+            this.gbxCartoon.Margin = new System.Windows.Forms.Padding(4);
+            this.gbxCartoon.Name = "gbxCartoon";
+            this.gbxCartoon.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxCartoon.Size = new System.Drawing.Size(259, 240);
+            this.gbxCartoon.TabIndex = 15;
+            this.gbxCartoon.TabStop = false;
+            this.gbxCartoon.Text = "卡通";
             // 
             // radioButton31
             // 
@@ -956,37 +964,37 @@ namespace ImgEdit
             this.radioButton36.TabStop = true;
             this.radioButton36.UseVisualStyleBackColor = true;
             // 
-            // trackBar1
+            // tkbESize
             // 
-            this.trackBar1.Location = new System.Drawing.Point(283, 648);
-            this.trackBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.trackBar1.Maximum = 100;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(116, 56);
-            this.trackBar1.TabIndex = 3;
-            this.trackBar1.Value = 80;
+            this.tkbESize.Location = new System.Drawing.Point(283, 648);
+            this.tkbESize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tkbESize.Maximum = 100;
+            this.tkbESize.Name = "tkbESize";
+            this.tkbESize.Size = new System.Drawing.Size(116, 56);
+            this.tkbESize.TabIndex = 3;
+            this.tkbESize.Value = 80;
             // 
-            // label2
+            // lblESizeValue
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(245, 652);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 15);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "80%";
+            this.lblESizeValue.AutoSize = true;
+            this.lblESizeValue.Location = new System.Drawing.Point(245, 652);
+            this.lblESizeValue.Name = "lblESizeValue";
+            this.lblESizeValue.Size = new System.Drawing.Size(31, 15);
+            this.lblESizeValue.TabIndex = 4;
+            this.lblESizeValue.Text = "80%";
             // 
-            // pictureBox1
+            // pbxImg
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(344, 82);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(839, 521);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pbxImg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxImg.BackgroundImage")));
+            this.pbxImg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbxImg.Location = new System.Drawing.Point(344, 82);
+            this.pbxImg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pbxImg.Name = "pbxImg";
+            this.pbxImg.Size = new System.Drawing.Size(839, 521);
+            this.pbxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxImg.TabIndex = 5;
+            this.pbxImg.TabStop = false;
+            this.pbxImg.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // 文件ToolStripMenuItem
             // 
@@ -999,6 +1007,7 @@ namespace ImgEdit
             this.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem";
             this.文件ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.文件ToolStripMenuItem.Text = "文件";
+            this.文件ToolStripMenuItem.Click += new System.EventHandler(this.文件ToolStripMenuItem_Click);
             // 
             // 新建ToolStripMenuItem
             // 
@@ -1118,120 +1127,157 @@ namespace ImgEdit
             this.menuStrip1.Size = new System.Drawing.Size(1261, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
-            // button1
+            // btnESelfAdp
             // 
-            this.button1.Location = new System.Drawing.Point(420, 648);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 29);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "自适应";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnESelfAdp.Location = new System.Drawing.Point(420, 648);
+            this.btnESelfAdp.Margin = new System.Windows.Forms.Padding(4);
+            this.btnESelfAdp.Name = "btnESelfAdp";
+            this.btnESelfAdp.Size = new System.Drawing.Size(100, 29);
+            this.btnESelfAdp.TabIndex = 6;
+            this.btnESelfAdp.Text = "自适应";
+            this.btnESelfAdp.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnEOriSize
             // 
-            this.button2.Location = new System.Drawing.Point(552, 648);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 29);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "原大小";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnEOriSize.Location = new System.Drawing.Point(552, 648);
+            this.btnEOriSize.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEOriSize.Name = "btnEOriSize";
+            this.btnEOriSize.Size = new System.Drawing.Size(100, 29);
+            this.btnEOriSize.TabIndex = 7;
+            this.btnEOriSize.Text = "原大小";
+            this.btnEOriSize.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnRotationL
             // 
-            this.button3.Location = new System.Drawing.Point(955, 646);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(71, 29);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "左旋";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnRotationL.Location = new System.Drawing.Point(955, 646);
+            this.btnRotationL.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRotationL.Name = "btnRotationL";
+            this.btnRotationL.Size = new System.Drawing.Size(71, 29);
+            this.btnRotationL.TabIndex = 8;
+            this.btnRotationL.Text = "左旋";
+            this.btnRotationL.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnRotationR
             // 
-            this.button4.Location = new System.Drawing.Point(1033, 646);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(71, 29);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "右旋";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnRotationR.Location = new System.Drawing.Point(1033, 646);
+            this.btnRotationR.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRotationR.Name = "btnRotationR";
+            this.btnRotationR.Size = new System.Drawing.Size(71, 29);
+            this.btnRotationR.TabIndex = 9;
+            this.btnRotationR.Text = "右旋";
+            this.btnRotationR.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnFlip
             // 
-            this.button5.Location = new System.Drawing.Point(1112, 646);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(71, 29);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "翻转";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnFlip.Location = new System.Drawing.Point(1112, 646);
+            this.btnFlip.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFlip.Name = "btnFlip";
+            this.btnFlip.Size = new System.Drawing.Size(71, 29);
+            this.btnFlip.TabIndex = 10;
+            this.btnFlip.Text = "翻转";
+            this.btnFlip.UseVisualStyleBackColor = true;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // button8
+            // btnEnterBatch
             // 
-            this.button8.Location = new System.Drawing.Point(16, 644);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(146, 32);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "进入批处理";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.btnEnterBatch.Location = new System.Drawing.Point(16, 644);
+            this.btnEnterBatch.Name = "btnEnterBatch";
+            this.btnEnterBatch.Size = new System.Drawing.Size(146, 32);
+            this.btnEnterBatch.TabIndex = 11;
+            this.btnEnterBatch.Text = "进入批处理";
+            this.btnEnterBatch.UseVisualStyleBackColor = true;
+            this.btnEnterBatch.Click += new System.EventHandler(this.button8_Click);
             // 
-            // Form1
+            // lblSDValue
+            // 
+            this.lblSDValue.AutoSize = true;
+            this.lblSDValue.Location = new System.Drawing.Point(233, 188);
+            this.lblSDValue.Name = "lblSDValue";
+            this.lblSDValue.Size = new System.Drawing.Size(15, 15);
+            this.lblSDValue.TabIndex = 21;
+            this.lblSDValue.Text = "0";
+            // 
+            // lblHDValue
+            // 
+            this.lblHDValue.AutoSize = true;
+            this.lblHDValue.Location = new System.Drawing.Point(233, 130);
+            this.lblHDValue.Name = "lblHDValue";
+            this.lblHDValue.Size = new System.Drawing.Size(15, 15);
+            this.lblHDValue.TabIndex = 20;
+            this.lblHDValue.Text = "0";
+            // 
+            // lblDBDValue
+            // 
+            this.lblDBDValue.AutoSize = true;
+            this.lblDBDValue.Location = new System.Drawing.Point(233, 79);
+            this.lblDBDValue.Name = "lblDBDValue";
+            this.lblDBDValue.Size = new System.Drawing.Size(15, 15);
+            this.lblDBDValue.TabIndex = 19;
+            this.lblDBDValue.Text = "0";
+            // 
+            // lblLDValue
+            // 
+            this.lblLDValue.AutoSize = true;
+            this.lblLDValue.Location = new System.Drawing.Point(233, 28);
+            this.lblLDValue.Name = "lblLDValue";
+            this.lblLDValue.Size = new System.Drawing.Size(15, 15);
+            this.lblLDValue.TabIndex = 18;
+            this.lblLDValue.Text = "0";
+            // 
+            // FormImgEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1261, 718);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.trackBar1);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.btnEnterBatch);
+            this.Controls.Add(this.btnFlip);
+            this.Controls.Add(this.btnRotationR);
+            this.Controls.Add(this.btnRotationL);
+            this.Controls.Add(this.btnEOriSize);
+            this.Controls.Add(this.btnESelfAdp);
+            this.Controls.Add(this.lblESizeValue);
+            this.Controls.Add(this.tkbESize);
+            this.Controls.Add(this.tctrlOper);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbxImg);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form1";
+            this.Name = "FormImgEdit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "图片编辑器";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.tabControl1.ResumeLayout(false);
+            this.tctrlOper.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbSD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbHD)).EndInit();
+            this.gbxFilter.ResumeLayout(false);
+            this.gbxFilter.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbDBD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbLD)).EndInit();
             this.tabPage2.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).EndInit();
+            this.gbxBColor.ResumeLayout(false);
+            this.gbxBColor.PerformLayout();
+            this.gbxBrush.ResumeLayout(false);
+            this.gbxBrush.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbBSize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbBTMD)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            this.gbxFColor.ResumeLayout(false);
+            this.gbxFColor.PerformLayout();
             this.tabPage4.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.gbxBubble.ResumeLayout(false);
+            this.gbxBubble.PerformLayout();
+            this.gbxCartoon.ResumeLayout(false);
+            this.gbxCartoon.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tkbESize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxImg)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -1241,14 +1287,14 @@ namespace ImgEdit
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tctrlOper;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TrackBar tkbESize;
+        private System.Windows.Forms.Label lblESizeValue;
+        private System.Windows.Forms.PictureBox pbxImg;
         private System.Windows.Forms.ToolStripMenuItem 文件ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 新建ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 打开ToolStripMenuItem;
@@ -1260,69 +1306,69 @@ namespace ImgEdit
         private System.Windows.Forms.ToolStripMenuItem 查看帮助ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 关于ToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnESelfAdp;
+        private System.Windows.Forms.Button btnEOriSize;
         private System.Windows.Forms.ToolStripMenuItem 插入ToolStripMenuItem;
-        private System.Windows.Forms.TrackBar trackBar3;
-        private System.Windows.Forms.TrackBar trackBar2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TrackBar tkbDBD;
+        private System.Windows.Forms.TrackBar tkbLD;
+        private System.Windows.Forms.Button btnRotationL;
+        private System.Windows.Forms.Button btnRotationR;
+        private System.Windows.Forms.Button btnFlip;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TrackBar trackBar5;
+        private System.Windows.Forms.TrackBar tkbSD;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TrackBar trackBar4;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.TrackBar tkbHD;
+        private System.Windows.Forms.GroupBox gbxFilter;
+        private System.Windows.Forms.RadioButton rbtJM;
+        private System.Windows.Forms.RadioButton rbtMH;
+        private System.Windows.Forms.RadioButton rbtZR;
+        private System.Windows.Forms.RadioButton rbtQC;
+        private System.Windows.Forms.RadioButton rbtFD;
+        private System.Windows.Forms.RadioButton rbtHB;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton radioButton16;
-        private System.Windows.Forms.RadioButton radioButton15;
-        private System.Windows.Forms.RadioButton radioButton14;
-        private System.Windows.Forms.RadioButton radioButton13;
-        private System.Windows.Forms.RadioButton radioButton12;
-        private System.Windows.Forms.RadioButton radioButton11;
-        private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox gbxBColor;
+        private System.Windows.Forms.RadioButton rbtBOthColor;
+        private System.Windows.Forms.RadioButton rbtBMosaic;
+        private System.Windows.Forms.RadioButton rbtBPurple;
+        private System.Windows.Forms.RadioButton rbtBWhite;
+        private System.Windows.Forms.RadioButton rbtBGreen;
+        private System.Windows.Forms.RadioButton rbtBYellow;
+        private System.Windows.Forms.RadioButton rbtBBlack;
+        private System.Windows.Forms.RadioButton rbtBRed;
+        private System.Windows.Forms.GroupBox gbxBrush;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.TrackBar trackBar8;
-        private System.Windows.Forms.TrackBar trackBar7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.RadioButton radioButton17;
-        private System.Windows.Forms.RadioButton radioButton18;
-        private System.Windows.Forms.RadioButton radioButton19;
-        private System.Windows.Forms.RadioButton radioButton20;
-        private System.Windows.Forms.RadioButton radioButton21;
-        private System.Windows.Forms.RadioButton radioButton22;
-        private System.Windows.Forms.RadioButton radioButton23;
-        private System.Windows.Forms.RadioButton radioButton24;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblBTMDValue;
+        private System.Windows.Forms.Label lblBSizeValue;
+        private System.Windows.Forms.RadioButton rbtEraser;
+        private System.Windows.Forms.RadioButton rbtBrush;
+        private System.Windows.Forms.TrackBar tkbBSize;
+        private System.Windows.Forms.TrackBar tkbBTMD;
+        private System.Windows.Forms.TextBox tbxText;
+        private System.Windows.Forms.Button btnGenText;
+        private System.Windows.Forms.GroupBox gbxFColor;
+        private System.Windows.Forms.RadioButton rbtFOthColor;
+        private System.Windows.Forms.RadioButton rbtFBrown;
+        private System.Windows.Forms.RadioButton rbtFPurple;
+        private System.Windows.Forms.RadioButton rbtFWhite;
+        private System.Windows.Forms.RadioButton rbtFGreen;
+        private System.Windows.Forms.RadioButton rbtFYellow;
+        private System.Windows.Forms.RadioButton rbtFBlack;
+        private System.Windows.Forms.RadioButton rbtFRed;
+        private System.Windows.Forms.Button btnChsFont;
+        private System.Windows.Forms.Label lblFSize;
+        private System.Windows.Forms.Label lblFont;
         private System.Windows.Forms.FontDialog fontDialog1;
         private System.Windows.Forms.ColorDialog colorDialog1;
-        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox gbxCartoon;
         private System.Windows.Forms.RadioButton radioButton31;
         private System.Windows.Forms.RadioButton radioButton32;
         private System.Windows.Forms.RadioButton radioButton33;
         private System.Windows.Forms.RadioButton radioButton34;
         private System.Windows.Forms.RadioButton radioButton35;
         private System.Windows.Forms.RadioButton radioButton36;
-        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox gbxBubble;
         private System.Windows.Forms.RadioButton radioButton25;
         private System.Windows.Forms.RadioButton radioButton26;
         private System.Windows.Forms.RadioButton radioButton27;
@@ -1336,7 +1382,11 @@ namespace ImgEdit
         private System.Windows.Forms.ToolStripMenuItem 另存为ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 恢复ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 最近编辑过的图片ToolStripMenuItem;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnEnterBatch;
+        private System.Windows.Forms.Label lblSDValue;
+        private System.Windows.Forms.Label lblHDValue;
+        private System.Windows.Forms.Label lblDBDValue;
+        private System.Windows.Forms.Label lblLDValue;
     }
 }
 
