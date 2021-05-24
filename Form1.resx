@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="radioButton25.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtQP6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAACQFJREFUaEPtWGlQVFcWvtACIsou0HQ3vUADzdoLvdDsGGSVfVF2EBAImyCIEeNW
@@ -162,7 +162,7 @@
         mVrB5vxoyamCWPGV7DD+mcQAp7/JZpEi+pp65BSmMIUp/P+CkP8CnvsVKzm7KTwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="radioButton26.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtQP4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAABV1JREFUaEPt13tMU1cYAPAq4BBRQLc4pG4ooIVieVoEoVBRoJEKSlBLlSrIoxIU
@@ -191,7 +191,7 @@
         UChaRaP9DVN1KYX7y8d+AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="radioButton27.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtQP2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAC3hJREFUaEPtWQtsW+UVDmVdoWFoAwGbQIJCNzoY7aCItWKDbRqP8dAqdR1CGgXE
@@ -246,7 +246,7 @@
         e47O0ZmjoqL/AxzfnOjaAIuTAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="radioButton28.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtQP5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAACxBJREFUaEPtWXuQU+UVD0hRZnTsg6JWRTtWqat2pSCID6qCYMXSUQutr/FRq0Nr
@@ -299,7 +299,7 @@
         MamgD8oqF8mruzHyK6gd25cdxmF8fXC5/gdeCmvE4eRZLAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="radioButton29.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtQP3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAB1lJREFUaEPtWGtMm9cZpqvUaI1UdVq1qWu2alWnRftTaWo1ddrPTfsRddqkTWu3
@@ -336,7 +336,7 @@
         5edRMvIgyTekzw8E2FrfoMqwl23H3ykZZJBBBhn8nyEr6z/pRCYqtbIRSQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="radioButton30.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtQP1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAB6BJREFUaEPtWAtQU2cW/n1vqba6Dlt17YOtHTrZVq2jjPhcWqTsyA7i1q6LiNQA
@@ -375,7 +375,7 @@
         TkSuQmCC
 </value>
   </data>
-  <data name="radioButton31.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtKT6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAB2hJREFUaEPtmQ1QVccVgK+C/MPjvXv37r3vPeDdn/dAUKMiIWqCP0RTIrWNKUg1
@@ -413,7 +413,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="radioButton32.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtKT4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAACQlJREFUaEPtWAlQ1OcVxzSZ1CZqGjvGOkkbnURbNYmJacZxYnFkOdSikkh0qlXb
@@ -458,7 +458,7 @@
         RU5ErkJggg==
 </value>
   </data>
-  <data name="radioButton33.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtKT2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAACQZJREFUaEPtWWlsXFcVNjRUaSKV0rCI8Kcg0VZQQUKBglpaFgkqUaSyhB/8AAoi
@@ -503,7 +503,7 @@
         rkJggg==
 </value>
   </data>
-  <data name="radioButton34.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtKT5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAACdRJREFUaEPtmQt0TVcax8/NQ95uHhJ5CHl35CEiEnkQTFudGm2nD9RrymI1o1N0
@@ -551,7 +551,7 @@
         q1rVqv97adq/ARBXng7iN2I5AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="radioButton35.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtKT3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAABwhJREFUaEPtWGlQU1cUjmItY1Ek5L2XqEBIAkVUBpfaFiwqKMgSoSBuaEFc2sFW
@@ -587,7 +587,7 @@
         mU3YYYcddtgxIBCJ/gGX/71sfladeAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="radioButton36.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rbtKT1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAACL5JREFUaEPtWAlQVFcW7ThRI0uEXn7vzd5At2kaELeIsikgCK6ogOwYMaOTjBON
@@ -4940,19 +4940,7 @@
 </value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="fontDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>124, 20</value>
-  </metadata>
-  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>246, 20</value>
-  </metadata>
-  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>373, 20</value>
-  </metadata>
-  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>521, 20</value>
+    <value>11, 14</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>48</value>

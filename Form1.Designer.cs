@@ -31,11 +31,16 @@ namespace ImgEdit
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormImgEdit));
             this.tctrlOper = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.lblSDValue = new System.Windows.Forms.Label();
+            this.lblHDValue = new System.Windows.Forms.Label();
+            this.lblDBDValue = new System.Windows.Forms.Label();
+            this.lblLDValue = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.tkbSD = new System.Windows.Forms.TrackBar();
             this.label4 = new System.Windows.Forms.Label();
             this.tkbHD = new System.Windows.Forms.TrackBar();
             this.gbxFilter = new System.Windows.Forms.GroupBox();
+            this.btnDoFilter = new System.Windows.Forms.Button();
             this.rbtJM = new System.Windows.Forms.RadioButton();
             this.rbtMH = new System.Windows.Forms.RadioButton();
             this.rbtZR = new System.Windows.Forms.RadioButton();
@@ -49,7 +54,7 @@ namespace ImgEdit
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.gbxBColor = new System.Windows.Forms.GroupBox();
             this.rbtBOthColor = new System.Windows.Forms.RadioButton();
-            this.rbtBMosaic = new System.Windows.Forms.RadioButton();
+            this.rbtMosaic = new System.Windows.Forms.RadioButton();
             this.rbtBPurple = new System.Windows.Forms.RadioButton();
             this.rbtBWhite = new System.Windows.Forms.RadioButton();
             this.rbtBGreen = new System.Windows.Forms.RadioButton();
@@ -82,53 +87,47 @@ namespace ImgEdit
             this.rbtFRed = new System.Windows.Forms.RadioButton();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.gbxBubble = new System.Windows.Forms.GroupBox();
-            this.radioButton25 = new System.Windows.Forms.RadioButton();
-            this.radioButton26 = new System.Windows.Forms.RadioButton();
-            this.radioButton27 = new System.Windows.Forms.RadioButton();
-            this.radioButton28 = new System.Windows.Forms.RadioButton();
-            this.radioButton29 = new System.Windows.Forms.RadioButton();
-            this.radioButton30 = new System.Windows.Forms.RadioButton();
+            this.rbtQP6 = new System.Windows.Forms.RadioButton();
+            this.rbtQP4 = new System.Windows.Forms.RadioButton();
+            this.rbtQP2 = new System.Windows.Forms.RadioButton();
+            this.rbtQP5 = new System.Windows.Forms.RadioButton();
+            this.rbtQP3 = new System.Windows.Forms.RadioButton();
+            this.rbtQP1 = new System.Windows.Forms.RadioButton();
             this.gbxCartoon = new System.Windows.Forms.GroupBox();
-            this.radioButton31 = new System.Windows.Forms.RadioButton();
-            this.radioButton32 = new System.Windows.Forms.RadioButton();
-            this.radioButton33 = new System.Windows.Forms.RadioButton();
-            this.radioButton34 = new System.Windows.Forms.RadioButton();
-            this.radioButton35 = new System.Windows.Forms.RadioButton();
-            this.radioButton36 = new System.Windows.Forms.RadioButton();
+            this.rbtKT6 = new System.Windows.Forms.RadioButton();
+            this.rbtKT4 = new System.Windows.Forms.RadioButton();
+            this.rbtKT2 = new System.Windows.Forms.RadioButton();
+            this.rbtKT5 = new System.Windows.Forms.RadioButton();
+            this.rbtKT3 = new System.Windows.Forms.RadioButton();
+            this.rbtKT1 = new System.Windows.Forms.RadioButton();
             this.tkbESize = new System.Windows.Forms.TrackBar();
             this.lblESizeValue = new System.Windows.Forms.Label();
             this.pbxImg = new System.Windows.Forms.PictureBox();
-            this.文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.新建ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.打开ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.保存ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.另存为ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.最近编辑过的图片ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.编辑ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.撤销ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.恢复ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.重做ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.尺寸ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.裁剪ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.插入ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.查看帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemNew = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemOpen = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemSaveAs = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemEdited = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemEdit = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemUndo = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemRedo = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemRework = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemResize = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemCut = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemInsert = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemHelp = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemViewHelp = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.btnESelfAdp = new System.Windows.Forms.Button();
             this.btnEOriSize = new System.Windows.Forms.Button();
             this.btnRotationL = new System.Windows.Forms.Button();
             this.btnRotationR = new System.Windows.Forms.Button();
             this.btnFlip = new System.Windows.Forms.Button();
-            this.fontDialog1 = new System.Windows.Forms.FontDialog();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.btnEnterBatch = new System.Windows.Forms.Button();
-            this.lblSDValue = new System.Windows.Forms.Label();
-            this.lblHDValue = new System.Windows.Forms.Label();
-            this.lblDBDValue = new System.Windows.Forms.Label();
-            this.lblLDValue = new System.Windows.Forms.Label();
+            this.btnDoSticker = new System.Windows.Forms.Button();
+            this.btnStartBrush = new System.Windows.Forms.Button();
             this.tctrlOper.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tkbSD)).BeginInit();
@@ -189,10 +188,46 @@ namespace ImgEdit
             this.tabPage1.Text = "调色";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // lblSDValue
+            // 
+            this.lblSDValue.AutoSize = true;
+            this.lblSDValue.Location = new System.Drawing.Point(233, 188);
+            this.lblSDValue.Name = "lblSDValue";
+            this.lblSDValue.Size = new System.Drawing.Size(15, 15);
+            this.lblSDValue.TabIndex = 21;
+            this.lblSDValue.Text = "0";
+            // 
+            // lblHDValue
+            // 
+            this.lblHDValue.AutoSize = true;
+            this.lblHDValue.Location = new System.Drawing.Point(233, 130);
+            this.lblHDValue.Name = "lblHDValue";
+            this.lblHDValue.Size = new System.Drawing.Size(15, 15);
+            this.lblHDValue.TabIndex = 20;
+            this.lblHDValue.Text = "0";
+            // 
+            // lblDBDValue
+            // 
+            this.lblDBDValue.AutoSize = true;
+            this.lblDBDValue.Location = new System.Drawing.Point(233, 79);
+            this.lblDBDValue.Name = "lblDBDValue";
+            this.lblDBDValue.Size = new System.Drawing.Size(15, 15);
+            this.lblDBDValue.TabIndex = 19;
+            this.lblDBDValue.Text = "0";
+            // 
+            // lblLDValue
+            // 
+            this.lblLDValue.AutoSize = true;
+            this.lblLDValue.Location = new System.Drawing.Point(233, 28);
+            this.lblLDValue.Name = "lblLDValue";
+            this.lblLDValue.Size = new System.Drawing.Size(15, 15);
+            this.lblLDValue.TabIndex = 18;
+            this.lblLDValue.Text = "0";
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 188);
+            this.label5.Location = new System.Drawing.Point(21, 188);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 15);
             this.label5.TabIndex = 17;
@@ -204,15 +239,17 @@ namespace ImgEdit
             this.tkbSD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tkbSD.Location = new System.Drawing.Point(65, 182);
             this.tkbSD.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbSD.Minimum = -10;
             this.tkbSD.Name = "tkbSD";
             this.tkbSD.Size = new System.Drawing.Size(169, 36);
             this.tkbSD.TabIndex = 16;
-            this.tkbSD.Value = 5;
+            this.tkbSD.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tkbSD.Scroll += new System.EventHandler(this.tkbSD_Scroll);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 132);
+            this.label4.Location = new System.Drawing.Point(21, 132);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 15);
             this.label4.TabIndex = 15;
@@ -224,13 +261,16 @@ namespace ImgEdit
             this.tkbHD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tkbHD.Location = new System.Drawing.Point(65, 126);
             this.tkbHD.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbHD.Minimum = -10;
             this.tkbHD.Name = "tkbHD";
             this.tkbHD.Size = new System.Drawing.Size(169, 36);
             this.tkbHD.TabIndex = 14;
-            this.tkbHD.Value = 5;
+            this.tkbHD.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tkbHD.Scroll += new System.EventHandler(this.tkbHD_Scroll);
             // 
             // gbxFilter
             // 
+            this.gbxFilter.Controls.Add(this.btnDoFilter);
             this.gbxFilter.Controls.Add(this.rbtJM);
             this.gbxFilter.Controls.Add(this.rbtMH);
             this.gbxFilter.Controls.Add(this.rbtZR);
@@ -245,6 +285,16 @@ namespace ImgEdit
             this.gbxFilter.TabIndex = 13;
             this.gbxFilter.TabStop = false;
             this.gbxFilter.Text = "滤镜";
+            // 
+            // btnDoFilter
+            // 
+            this.btnDoFilter.Location = new System.Drawing.Point(45, 239);
+            this.btnDoFilter.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDoFilter.Name = "btnDoFilter";
+            this.btnDoFilter.Size = new System.Drawing.Size(147, 32);
+            this.btnDoFilter.TabIndex = 12;
+            this.btnDoFilter.Text = "应用滤镜";
+            this.btnDoFilter.UseVisualStyleBackColor = true;
             // 
             // rbtJM
             // 
@@ -342,10 +392,12 @@ namespace ImgEdit
             this.tkbDBD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tkbDBD.Location = new System.Drawing.Point(65, 74);
             this.tkbDBD.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbDBD.Minimum = -10;
             this.tkbDBD.Name = "tkbDBD";
             this.tkbDBD.Size = new System.Drawing.Size(169, 36);
             this.tkbDBD.TabIndex = 1;
-            this.tkbDBD.Value = 5;
+            this.tkbDBD.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tkbDBD.Scroll += new System.EventHandler(this.tkbDBD_Scroll);
             // 
             // tkbLD
             // 
@@ -353,13 +405,16 @@ namespace ImgEdit
             this.tkbLD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tkbLD.Location = new System.Drawing.Point(65, 22);
             this.tkbLD.Margin = new System.Windows.Forms.Padding(4);
+            this.tkbLD.Minimum = -10;
             this.tkbLD.Name = "tkbLD";
             this.tkbLD.Size = new System.Drawing.Size(169, 41);
             this.tkbLD.TabIndex = 0;
-            this.tkbLD.Value = 5;
+            this.tkbLD.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tkbLD.Scroll += new System.EventHandler(this.tkbLD_Scroll);
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.btnStartBrush);
             this.tabPage2.Controls.Add(this.gbxBColor);
             this.tabPage2.Controls.Add(this.gbxBrush);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
@@ -374,7 +429,7 @@ namespace ImgEdit
             // gbxBColor
             // 
             this.gbxBColor.Controls.Add(this.rbtBOthColor);
-            this.gbxBColor.Controls.Add(this.rbtBMosaic);
+            this.gbxBColor.Controls.Add(this.rbtMosaic);
             this.gbxBColor.Controls.Add(this.rbtBPurple);
             this.gbxBColor.Controls.Add(this.rbtBWhite);
             this.gbxBColor.Controls.Add(this.rbtBGreen);
@@ -385,7 +440,7 @@ namespace ImgEdit
             this.gbxBColor.Margin = new System.Windows.Forms.Padding(4);
             this.gbxBColor.Name = "gbxBColor";
             this.gbxBColor.Padding = new System.Windows.Forms.Padding(4);
-            this.gbxBColor.Size = new System.Drawing.Size(269, 276);
+            this.gbxBColor.Size = new System.Drawing.Size(269, 203);
             this.gbxBColor.TabIndex = 1;
             this.gbxBColor.TabStop = false;
             this.gbxBColor.Text = "画笔选择";
@@ -393,73 +448,66 @@ namespace ImgEdit
             // rbtBOthColor
             // 
             this.rbtBOthColor.AutoSize = true;
-            this.rbtBOthColor.Location = new System.Drawing.Point(152, 211);
+            this.rbtBOthColor.Location = new System.Drawing.Point(152, 164);
             this.rbtBOthColor.Margin = new System.Windows.Forms.Padding(4);
             this.rbtBOthColor.Name = "rbtBOthColor";
             this.rbtBOthColor.Size = new System.Drawing.Size(88, 19);
             this.rbtBOthColor.TabIndex = 12;
-            this.rbtBOthColor.TabStop = true;
             this.rbtBOthColor.Text = "其他颜色";
             this.rbtBOthColor.UseVisualStyleBackColor = true;
-            this.rbtBOthColor.CheckedChanged += new System.EventHandler(this.radioButton16_CheckedChanged);
             // 
-            // rbtBMosaic
+            // rbtMosaic
             // 
-            this.rbtBMosaic.AutoSize = true;
-            this.rbtBMosaic.Location = new System.Drawing.Point(31, 211);
-            this.rbtBMosaic.Margin = new System.Windows.Forms.Padding(4);
-            this.rbtBMosaic.Name = "rbtBMosaic";
-            this.rbtBMosaic.Size = new System.Drawing.Size(73, 19);
-            this.rbtBMosaic.TabIndex = 11;
-            this.rbtBMosaic.TabStop = true;
-            this.rbtBMosaic.Text = "马赛克";
-            this.rbtBMosaic.UseVisualStyleBackColor = true;
+            this.rbtMosaic.AutoSize = true;
+            this.rbtMosaic.Location = new System.Drawing.Point(31, 164);
+            this.rbtMosaic.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtMosaic.Name = "rbtMosaic";
+            this.rbtMosaic.Size = new System.Drawing.Size(73, 19);
+            this.rbtMosaic.TabIndex = 11;
+            this.rbtMosaic.Text = "马赛克";
+            this.rbtMosaic.UseVisualStyleBackColor = true;
             // 
             // rbtBPurple
             // 
             this.rbtBPurple.AutoSize = true;
-            this.rbtBPurple.Location = new System.Drawing.Point(152, 151);
+            this.rbtBPurple.Location = new System.Drawing.Point(152, 124);
             this.rbtBPurple.Margin = new System.Windows.Forms.Padding(4);
             this.rbtBPurple.Name = "rbtBPurple";
             this.rbtBPurple.Size = new System.Drawing.Size(58, 19);
             this.rbtBPurple.TabIndex = 10;
-            this.rbtBPurple.TabStop = true;
             this.rbtBPurple.Text = "紫色";
             this.rbtBPurple.UseVisualStyleBackColor = true;
             // 
             // rbtBWhite
             // 
             this.rbtBWhite.AutoSize = true;
-            this.rbtBWhite.Location = new System.Drawing.Point(31, 151);
+            this.rbtBWhite.Location = new System.Drawing.Point(31, 124);
             this.rbtBWhite.Margin = new System.Windows.Forms.Padding(4);
             this.rbtBWhite.Name = "rbtBWhite";
             this.rbtBWhite.Size = new System.Drawing.Size(58, 19);
             this.rbtBWhite.TabIndex = 9;
-            this.rbtBWhite.TabStop = true;
             this.rbtBWhite.Text = "白色";
             this.rbtBWhite.UseVisualStyleBackColor = true;
             // 
             // rbtBGreen
             // 
             this.rbtBGreen.AutoSize = true;
-            this.rbtBGreen.Location = new System.Drawing.Point(152, 96);
+            this.rbtBGreen.Location = new System.Drawing.Point(152, 82);
             this.rbtBGreen.Margin = new System.Windows.Forms.Padding(4);
             this.rbtBGreen.Name = "rbtBGreen";
             this.rbtBGreen.Size = new System.Drawing.Size(58, 19);
             this.rbtBGreen.TabIndex = 8;
-            this.rbtBGreen.TabStop = true;
             this.rbtBGreen.Text = "绿色";
             this.rbtBGreen.UseVisualStyleBackColor = true;
             // 
             // rbtBYellow
             // 
             this.rbtBYellow.AutoSize = true;
-            this.rbtBYellow.Location = new System.Drawing.Point(31, 96);
+            this.rbtBYellow.Location = new System.Drawing.Point(31, 82);
             this.rbtBYellow.Margin = new System.Windows.Forms.Padding(4);
             this.rbtBYellow.Name = "rbtBYellow";
             this.rbtBYellow.Size = new System.Drawing.Size(58, 19);
             this.rbtBYellow.TabIndex = 7;
-            this.rbtBYellow.TabStop = true;
             this.rbtBYellow.Text = "黄色";
             this.rbtBYellow.UseVisualStyleBackColor = true;
             // 
@@ -471,13 +519,13 @@ namespace ImgEdit
             this.rbtBBlack.Name = "rbtBBlack";
             this.rbtBBlack.Size = new System.Drawing.Size(58, 19);
             this.rbtBBlack.TabIndex = 6;
-            this.rbtBBlack.TabStop = true;
             this.rbtBBlack.Text = "黑色";
             this.rbtBBlack.UseVisualStyleBackColor = true;
             // 
             // rbtBRed
             // 
             this.rbtBRed.AutoSize = true;
+            this.rbtBRed.Checked = true;
             this.rbtBRed.Location = new System.Drawing.Point(31, 41);
             this.rbtBRed.Margin = new System.Windows.Forms.Padding(4);
             this.rbtBRed.Name = "rbtBRed";
@@ -554,13 +602,13 @@ namespace ImgEdit
             this.rbtEraser.Name = "rbtEraser";
             this.rbtEraser.Size = new System.Drawing.Size(73, 19);
             this.rbtEraser.TabIndex = 5;
-            this.rbtEraser.TabStop = true;
             this.rbtEraser.Text = "橡皮擦";
             this.rbtEraser.UseVisualStyleBackColor = true;
             // 
             // rbtBrush
             // 
             this.rbtBrush.AutoSize = true;
+            this.rbtBrush.Checked = true;
             this.rbtBrush.Location = new System.Drawing.Point(31, 39);
             this.rbtBrush.Margin = new System.Windows.Forms.Padding(4);
             this.rbtBrush.Name = "rbtBrush";
@@ -580,6 +628,7 @@ namespace ImgEdit
             this.tkbBSize.Size = new System.Drawing.Size(241, 30);
             this.tkbBSize.TabIndex = 3;
             this.tkbBSize.Value = 5;
+            this.tkbBSize.Scroll += new System.EventHandler(this.tkbBSize_Scroll);
             // 
             // tkbBTMD
             // 
@@ -591,7 +640,9 @@ namespace ImgEdit
             this.tkbBTMD.Name = "tkbBTMD";
             this.tkbBTMD.Size = new System.Drawing.Size(241, 30);
             this.tkbBTMD.TabIndex = 2;
+            this.tkbBTMD.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tkbBTMD.Value = 90;
+            this.tkbBTMD.Scroll += new System.EventHandler(this.tkbBTMD_Scroll);
             // 
             // tabPage3
             // 
@@ -618,7 +669,6 @@ namespace ImgEdit
             this.btnChsFont.TabIndex = 15;
             this.btnChsFont.Text = "选择字体";
             this.btnChsFont.UseVisualStyleBackColor = true;
-            this.btnChsFont.Click += new System.EventHandler(this.button7_Click);
             // 
             // lblFSize
             // 
@@ -628,7 +678,7 @@ namespace ImgEdit
             this.lblFSize.Name = "lblFSize";
             this.lblFSize.Size = new System.Drawing.Size(39, 15);
             this.lblFSize.TabIndex = 14;
-            this.lblFSize.Text = "20pt";
+            this.lblFSize.Text = "10pt";
             // 
             // lblFont
             // 
@@ -686,7 +736,6 @@ namespace ImgEdit
             this.rbtFOthColor.Name = "rbtFOthColor";
             this.rbtFOthColor.Size = new System.Drawing.Size(88, 19);
             this.rbtFOthColor.TabIndex = 12;
-            this.rbtFOthColor.TabStop = true;
             this.rbtFOthColor.Text = "其他颜色";
             this.rbtFOthColor.UseVisualStyleBackColor = true;
             // 
@@ -698,7 +747,6 @@ namespace ImgEdit
             this.rbtFBrown.Name = "rbtFBrown";
             this.rbtFBrown.Size = new System.Drawing.Size(58, 19);
             this.rbtFBrown.TabIndex = 11;
-            this.rbtFBrown.TabStop = true;
             this.rbtFBrown.Text = "棕色";
             this.rbtFBrown.UseVisualStyleBackColor = true;
             // 
@@ -710,7 +758,6 @@ namespace ImgEdit
             this.rbtFPurple.Name = "rbtFPurple";
             this.rbtFPurple.Size = new System.Drawing.Size(58, 19);
             this.rbtFPurple.TabIndex = 10;
-            this.rbtFPurple.TabStop = true;
             this.rbtFPurple.Text = "紫色";
             this.rbtFPurple.UseVisualStyleBackColor = true;
             // 
@@ -722,7 +769,6 @@ namespace ImgEdit
             this.rbtFWhite.Name = "rbtFWhite";
             this.rbtFWhite.Size = new System.Drawing.Size(58, 19);
             this.rbtFWhite.TabIndex = 9;
-            this.rbtFWhite.TabStop = true;
             this.rbtFWhite.Text = "白色";
             this.rbtFWhite.UseVisualStyleBackColor = true;
             // 
@@ -734,7 +780,6 @@ namespace ImgEdit
             this.rbtFGreen.Name = "rbtFGreen";
             this.rbtFGreen.Size = new System.Drawing.Size(58, 19);
             this.rbtFGreen.TabIndex = 8;
-            this.rbtFGreen.TabStop = true;
             this.rbtFGreen.Text = "绿色";
             this.rbtFGreen.UseVisualStyleBackColor = true;
             // 
@@ -746,7 +791,6 @@ namespace ImgEdit
             this.rbtFYellow.Name = "rbtFYellow";
             this.rbtFYellow.Size = new System.Drawing.Size(58, 19);
             this.rbtFYellow.TabIndex = 7;
-            this.rbtFYellow.TabStop = true;
             this.rbtFYellow.Text = "黄色";
             this.rbtFYellow.UseVisualStyleBackColor = true;
             // 
@@ -758,13 +802,13 @@ namespace ImgEdit
             this.rbtFBlack.Name = "rbtFBlack";
             this.rbtFBlack.Size = new System.Drawing.Size(58, 19);
             this.rbtFBlack.TabIndex = 6;
-            this.rbtFBlack.TabStop = true;
             this.rbtFBlack.Text = "黑色";
             this.rbtFBlack.UseVisualStyleBackColor = true;
             // 
             // rbtFRed
             // 
             this.rbtFRed.AutoSize = true;
+            this.rbtFRed.Checked = true;
             this.rbtFRed.Location = new System.Drawing.Point(31, 35);
             this.rbtFRed.Margin = new System.Windows.Forms.Padding(4);
             this.rbtFRed.Name = "rbtFRed";
@@ -776,6 +820,7 @@ namespace ImgEdit
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.btnDoSticker);
             this.tabPage4.Controls.Add(this.gbxBubble);
             this.tabPage4.Controls.Add(this.gbxCartoon);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
@@ -788,181 +833,177 @@ namespace ImgEdit
             // 
             // gbxBubble
             // 
-            this.gbxBubble.Controls.Add(this.radioButton25);
-            this.gbxBubble.Controls.Add(this.radioButton26);
-            this.gbxBubble.Controls.Add(this.radioButton27);
-            this.gbxBubble.Controls.Add(this.radioButton28);
-            this.gbxBubble.Controls.Add(this.radioButton29);
-            this.gbxBubble.Controls.Add(this.radioButton30);
-            this.gbxBubble.Location = new System.Drawing.Point(4, 270);
+            this.gbxBubble.Controls.Add(this.rbtQP6);
+            this.gbxBubble.Controls.Add(this.rbtQP4);
+            this.gbxBubble.Controls.Add(this.rbtQP2);
+            this.gbxBubble.Controls.Add(this.rbtQP5);
+            this.gbxBubble.Controls.Add(this.rbtQP3);
+            this.gbxBubble.Controls.Add(this.rbtQP1);
+            this.gbxBubble.Location = new System.Drawing.Point(12, 252);
             this.gbxBubble.Margin = new System.Windows.Forms.Padding(4);
             this.gbxBubble.Name = "gbxBubble";
             this.gbxBubble.Padding = new System.Windows.Forms.Padding(4);
-            this.gbxBubble.Size = new System.Drawing.Size(259, 240);
+            this.gbxBubble.Size = new System.Drawing.Size(259, 218);
             this.gbxBubble.TabIndex = 16;
             this.gbxBubble.TabStop = false;
             this.gbxBubble.Text = "气泡";
             // 
-            // radioButton25
+            // rbtQP6
             // 
-            this.radioButton25.AutoSize = true;
-            this.radioButton25.Image = ((System.Drawing.Image)(resources.GetObject("radioButton25.Image")));
-            this.radioButton25.Location = new System.Drawing.Point(155, 168);
-            this.radioButton25.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton25.Name = "radioButton25";
-            this.radioButton25.Size = new System.Drawing.Size(65, 48);
-            this.radioButton25.TabIndex = 14;
-            this.radioButton25.TabStop = true;
-            this.radioButton25.UseVisualStyleBackColor = true;
+            this.rbtQP6.AutoSize = true;
+            this.rbtQP6.Image = ((System.Drawing.Image)(resources.GetObject("rbtQP6.Image")));
+            this.rbtQP6.Location = new System.Drawing.Point(155, 159);
+            this.rbtQP6.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtQP6.Name = "rbtQP6";
+            this.rbtQP6.Size = new System.Drawing.Size(65, 48);
+            this.rbtQP6.TabIndex = 14;
+            this.rbtQP6.TabStop = true;
+            this.rbtQP6.UseVisualStyleBackColor = true;
             // 
-            // radioButton26
+            // rbtQP4
             // 
-            this.radioButton26.AutoSize = true;
-            this.radioButton26.Image = ((System.Drawing.Image)(resources.GetObject("radioButton26.Image")));
-            this.radioButton26.Location = new System.Drawing.Point(155, 100);
-            this.radioButton26.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton26.Name = "radioButton26";
-            this.radioButton26.Size = new System.Drawing.Size(65, 48);
-            this.radioButton26.TabIndex = 13;
-            this.radioButton26.TabStop = true;
-            this.radioButton26.UseVisualStyleBackColor = true;
+            this.rbtQP4.AutoSize = true;
+            this.rbtQP4.Image = ((System.Drawing.Image)(resources.GetObject("rbtQP4.Image")));
+            this.rbtQP4.Location = new System.Drawing.Point(155, 91);
+            this.rbtQP4.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtQP4.Name = "rbtQP4";
+            this.rbtQP4.Size = new System.Drawing.Size(65, 48);
+            this.rbtQP4.TabIndex = 13;
+            this.rbtQP4.TabStop = true;
+            this.rbtQP4.UseVisualStyleBackColor = true;
             // 
-            // radioButton27
+            // rbtQP2
             // 
-            this.radioButton27.AutoSize = true;
-            this.radioButton27.Image = ((System.Drawing.Image)(resources.GetObject("radioButton27.Image")));
-            this.radioButton27.Location = new System.Drawing.Point(155, 32);
-            this.radioButton27.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton27.Name = "radioButton27";
-            this.radioButton27.Size = new System.Drawing.Size(65, 48);
-            this.radioButton27.TabIndex = 12;
-            this.radioButton27.TabStop = true;
-            this.radioButton27.UseVisualStyleBackColor = true;
+            this.rbtQP2.AutoSize = true;
+            this.rbtQP2.Image = ((System.Drawing.Image)(resources.GetObject("rbtQP2.Image")));
+            this.rbtQP2.Location = new System.Drawing.Point(155, 29);
+            this.rbtQP2.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtQP2.Name = "rbtQP2";
+            this.rbtQP2.Size = new System.Drawing.Size(65, 48);
+            this.rbtQP2.TabIndex = 12;
+            this.rbtQP2.TabStop = true;
+            this.rbtQP2.UseVisualStyleBackColor = true;
             // 
-            // radioButton28
+            // rbtQP5
             // 
-            this.radioButton28.AutoSize = true;
-            this.radioButton28.Image = ((System.Drawing.Image)(resources.GetObject("radioButton28.Image")));
-            this.radioButton28.Location = new System.Drawing.Point(31, 168);
-            this.radioButton28.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton28.Name = "radioButton28";
-            this.radioButton28.Size = new System.Drawing.Size(65, 48);
-            this.radioButton28.TabIndex = 11;
-            this.radioButton28.TabStop = true;
-            this.radioButton28.UseVisualStyleBackColor = true;
+            this.rbtQP5.AutoSize = true;
+            this.rbtQP5.Image = ((System.Drawing.Image)(resources.GetObject("rbtQP5.Image")));
+            this.rbtQP5.Location = new System.Drawing.Point(31, 159);
+            this.rbtQP5.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtQP5.Name = "rbtQP5";
+            this.rbtQP5.Size = new System.Drawing.Size(65, 48);
+            this.rbtQP5.TabIndex = 11;
+            this.rbtQP5.TabStop = true;
+            this.rbtQP5.UseVisualStyleBackColor = true;
             // 
-            // radioButton29
+            // rbtQP3
             // 
-            this.radioButton29.AutoSize = true;
-            this.radioButton29.Image = ((System.Drawing.Image)(resources.GetObject("radioButton29.Image")));
-            this.radioButton29.Location = new System.Drawing.Point(31, 100);
-            this.radioButton29.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton29.Name = "radioButton29";
-            this.radioButton29.Size = new System.Drawing.Size(65, 48);
-            this.radioButton29.TabIndex = 9;
-            this.radioButton29.TabStop = true;
-            this.radioButton29.UseVisualStyleBackColor = true;
+            this.rbtQP3.AutoSize = true;
+            this.rbtQP3.Image = ((System.Drawing.Image)(resources.GetObject("rbtQP3.Image")));
+            this.rbtQP3.Location = new System.Drawing.Point(31, 91);
+            this.rbtQP3.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtQP3.Name = "rbtQP3";
+            this.rbtQP3.Size = new System.Drawing.Size(65, 48);
+            this.rbtQP3.TabIndex = 9;
+            this.rbtQP3.TabStop = true;
+            this.rbtQP3.UseVisualStyleBackColor = true;
             // 
-            // radioButton30
+            // rbtQP1
             // 
-            this.radioButton30.AutoSize = true;
-            this.radioButton30.Image = ((System.Drawing.Image)(resources.GetObject("radioButton30.Image")));
-            this.radioButton30.Location = new System.Drawing.Point(31, 32);
-            this.radioButton30.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton30.Name = "radioButton30";
-            this.radioButton30.Size = new System.Drawing.Size(65, 48);
-            this.radioButton30.TabIndex = 7;
-            this.radioButton30.TabStop = true;
-            this.radioButton30.UseVisualStyleBackColor = true;
+            this.rbtQP1.AutoSize = true;
+            this.rbtQP1.Image = ((System.Drawing.Image)(resources.GetObject("rbtQP1.Image")));
+            this.rbtQP1.Location = new System.Drawing.Point(31, 29);
+            this.rbtQP1.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtQP1.Name = "rbtQP1";
+            this.rbtQP1.Size = new System.Drawing.Size(65, 48);
+            this.rbtQP1.TabIndex = 7;
+            this.rbtQP1.TabStop = true;
+            this.rbtQP1.UseVisualStyleBackColor = true;
             // 
             // gbxCartoon
             // 
-            this.gbxCartoon.Controls.Add(this.radioButton31);
-            this.gbxCartoon.Controls.Add(this.radioButton32);
-            this.gbxCartoon.Controls.Add(this.radioButton33);
-            this.gbxCartoon.Controls.Add(this.radioButton34);
-            this.gbxCartoon.Controls.Add(this.radioButton35);
-            this.gbxCartoon.Controls.Add(this.radioButton36);
-            this.gbxCartoon.Location = new System.Drawing.Point(4, 22);
+            this.gbxCartoon.Controls.Add(this.rbtKT6);
+            this.gbxCartoon.Controls.Add(this.rbtKT4);
+            this.gbxCartoon.Controls.Add(this.rbtKT2);
+            this.gbxCartoon.Controls.Add(this.rbtKT5);
+            this.gbxCartoon.Controls.Add(this.rbtKT3);
+            this.gbxCartoon.Controls.Add(this.rbtKT1);
+            this.gbxCartoon.Location = new System.Drawing.Point(12, 22);
             this.gbxCartoon.Margin = new System.Windows.Forms.Padding(4);
             this.gbxCartoon.Name = "gbxCartoon";
             this.gbxCartoon.Padding = new System.Windows.Forms.Padding(4);
-            this.gbxCartoon.Size = new System.Drawing.Size(259, 240);
+            this.gbxCartoon.Size = new System.Drawing.Size(259, 222);
             this.gbxCartoon.TabIndex = 15;
             this.gbxCartoon.TabStop = false;
             this.gbxCartoon.Text = "卡通";
             // 
-            // radioButton31
+            // rbtKT6
             // 
-            this.radioButton31.AutoSize = true;
-            this.radioButton31.Image = ((System.Drawing.Image)(resources.GetObject("radioButton31.Image")));
-            this.radioButton31.Location = new System.Drawing.Point(155, 168);
-            this.radioButton31.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton31.Name = "radioButton31";
-            this.radioButton31.Size = new System.Drawing.Size(65, 48);
-            this.radioButton31.TabIndex = 14;
-            this.radioButton31.TabStop = true;
-            this.radioButton31.UseVisualStyleBackColor = true;
+            this.rbtKT6.AutoSize = true;
+            this.rbtKT6.Image = ((System.Drawing.Image)(resources.GetObject("rbtKT6.Image")));
+            this.rbtKT6.Location = new System.Drawing.Point(155, 159);
+            this.rbtKT6.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtKT6.Name = "rbtKT6";
+            this.rbtKT6.Size = new System.Drawing.Size(65, 48);
+            this.rbtKT6.TabIndex = 14;
+            this.rbtKT6.UseVisualStyleBackColor = true;
             // 
-            // radioButton32
+            // rbtKT4
             // 
-            this.radioButton32.AutoSize = true;
-            this.radioButton32.Image = ((System.Drawing.Image)(resources.GetObject("radioButton32.Image")));
-            this.radioButton32.Location = new System.Drawing.Point(155, 100);
-            this.radioButton32.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton32.Name = "radioButton32";
-            this.radioButton32.Size = new System.Drawing.Size(65, 48);
-            this.radioButton32.TabIndex = 13;
-            this.radioButton32.TabStop = true;
-            this.radioButton32.UseVisualStyleBackColor = true;
+            this.rbtKT4.AutoSize = true;
+            this.rbtKT4.Image = ((System.Drawing.Image)(resources.GetObject("rbtKT4.Image")));
+            this.rbtKT4.Location = new System.Drawing.Point(155, 91);
+            this.rbtKT4.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtKT4.Name = "rbtKT4";
+            this.rbtKT4.Size = new System.Drawing.Size(65, 48);
+            this.rbtKT4.TabIndex = 13;
+            this.rbtKT4.UseVisualStyleBackColor = true;
             // 
-            // radioButton33
+            // rbtKT2
             // 
-            this.radioButton33.AutoSize = true;
-            this.radioButton33.Image = ((System.Drawing.Image)(resources.GetObject("radioButton33.Image")));
-            this.radioButton33.Location = new System.Drawing.Point(155, 32);
-            this.radioButton33.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton33.Name = "radioButton33";
-            this.radioButton33.Size = new System.Drawing.Size(65, 48);
-            this.radioButton33.TabIndex = 12;
-            this.radioButton33.TabStop = true;
-            this.radioButton33.UseVisualStyleBackColor = true;
+            this.rbtKT2.AutoSize = true;
+            this.rbtKT2.Image = ((System.Drawing.Image)(resources.GetObject("rbtKT2.Image")));
+            this.rbtKT2.Location = new System.Drawing.Point(155, 29);
+            this.rbtKT2.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtKT2.Name = "rbtKT2";
+            this.rbtKT2.Size = new System.Drawing.Size(65, 48);
+            this.rbtKT2.TabIndex = 12;
+            this.rbtKT2.UseVisualStyleBackColor = true;
             // 
-            // radioButton34
+            // rbtKT5
             // 
-            this.radioButton34.AutoSize = true;
-            this.radioButton34.Image = ((System.Drawing.Image)(resources.GetObject("radioButton34.Image")));
-            this.radioButton34.Location = new System.Drawing.Point(31, 168);
-            this.radioButton34.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton34.Name = "radioButton34";
-            this.radioButton34.Size = new System.Drawing.Size(65, 48);
-            this.radioButton34.TabIndex = 11;
-            this.radioButton34.TabStop = true;
-            this.radioButton34.UseVisualStyleBackColor = true;
+            this.rbtKT5.AutoSize = true;
+            this.rbtKT5.Image = ((System.Drawing.Image)(resources.GetObject("rbtKT5.Image")));
+            this.rbtKT5.Location = new System.Drawing.Point(31, 159);
+            this.rbtKT5.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtKT5.Name = "rbtKT5";
+            this.rbtKT5.Size = new System.Drawing.Size(65, 48);
+            this.rbtKT5.TabIndex = 11;
+            this.rbtKT5.UseVisualStyleBackColor = true;
             // 
-            // radioButton35
+            // rbtKT3
             // 
-            this.radioButton35.AutoSize = true;
-            this.radioButton35.Image = ((System.Drawing.Image)(resources.GetObject("radioButton35.Image")));
-            this.radioButton35.Location = new System.Drawing.Point(31, 100);
-            this.radioButton35.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton35.Name = "radioButton35";
-            this.radioButton35.Size = new System.Drawing.Size(65, 48);
-            this.radioButton35.TabIndex = 9;
-            this.radioButton35.TabStop = true;
-            this.radioButton35.UseVisualStyleBackColor = true;
+            this.rbtKT3.AutoSize = true;
+            this.rbtKT3.Image = ((System.Drawing.Image)(resources.GetObject("rbtKT3.Image")));
+            this.rbtKT3.Location = new System.Drawing.Point(31, 91);
+            this.rbtKT3.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtKT3.Name = "rbtKT3";
+            this.rbtKT3.Size = new System.Drawing.Size(65, 48);
+            this.rbtKT3.TabIndex = 9;
+            this.rbtKT3.UseVisualStyleBackColor = true;
             // 
-            // radioButton36
+            // rbtKT1
             // 
-            this.radioButton36.AutoSize = true;
-            this.radioButton36.Image = ((System.Drawing.Image)(resources.GetObject("radioButton36.Image")));
-            this.radioButton36.Location = new System.Drawing.Point(31, 32);
-            this.radioButton36.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton36.Name = "radioButton36";
-            this.radioButton36.Size = new System.Drawing.Size(65, 48);
-            this.radioButton36.TabIndex = 7;
-            this.radioButton36.TabStop = true;
-            this.radioButton36.UseVisualStyleBackColor = true;
+            this.rbtKT1.AutoSize = true;
+            this.rbtKT1.Checked = true;
+            this.rbtKT1.Image = ((System.Drawing.Image)(resources.GetObject("rbtKT1.Image")));
+            this.rbtKT1.Location = new System.Drawing.Point(31, 29);
+            this.rbtKT1.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtKT1.Name = "rbtKT1";
+            this.rbtKT1.Size = new System.Drawing.Size(65, 48);
+            this.rbtKT1.TabIndex = 7;
+            this.rbtKT1.TabStop = true;
+            this.rbtKT1.UseVisualStyleBackColor = true;
             // 
             // tkbESize
             // 
@@ -972,7 +1013,9 @@ namespace ImgEdit
             this.tkbESize.Name = "tkbESize";
             this.tkbESize.Size = new System.Drawing.Size(116, 56);
             this.tkbESize.TabIndex = 3;
+            this.tkbESize.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tkbESize.Value = 80;
+            this.tkbESize.Scroll += new System.EventHandler(this.tkbESize_Scroll);
             // 
             // lblESizeValue
             // 
@@ -994,140 +1037,146 @@ namespace ImgEdit
             this.pbxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxImg.TabIndex = 5;
             this.pbxImg.TabStop = false;
-            this.pbxImg.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // 文件ToolStripMenuItem
+            // ToolStripMenuItemFile
             // 
-            this.文件ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.新建ToolStripMenuItem,
-            this.打开ToolStripMenuItem,
-            this.保存ToolStripMenuItem,
-            this.另存为ToolStripMenuItem,
-            this.最近编辑过的图片ToolStripMenuItem});
-            this.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem";
-            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
-            this.文件ToolStripMenuItem.Text = "文件";
-            this.文件ToolStripMenuItem.Click += new System.EventHandler(this.文件ToolStripMenuItem_Click);
+            this.ToolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripMenuItemNew,
+            this.ToolStripMenuItemOpen,
+            this.ToolStripMenuItemSave,
+            this.ToolStripMenuItemSaveAs,
+            this.ToolStripMenuItemEdited});
+            this.ToolStripMenuItemFile.Name = "ToolStripMenuItemFile";
+            this.ToolStripMenuItemFile.Size = new System.Drawing.Size(53, 24);
+            this.ToolStripMenuItemFile.Text = "文件";
             // 
-            // 新建ToolStripMenuItem
+            // ToolStripMenuItemNew
             // 
-            this.新建ToolStripMenuItem.Name = "新建ToolStripMenuItem";
-            this.新建ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.新建ToolStripMenuItem.Text = "新建";
-            this.新建ToolStripMenuItem.Click += new System.EventHandler(this.新建ToolStripMenuItem_Click);
+            this.ToolStripMenuItemNew.Name = "ToolStripMenuItemNew";
+            this.ToolStripMenuItemNew.Size = new System.Drawing.Size(212, 26);
+            this.ToolStripMenuItemNew.Text = "新建";
+            this.ToolStripMenuItemNew.Click += new System.EventHandler(this.ToolStripMenuItemNew_Click);
             // 
-            // 打开ToolStripMenuItem
+            // ToolStripMenuItemOpen
             // 
-            this.打开ToolStripMenuItem.Name = "打开ToolStripMenuItem";
-            this.打开ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.打开ToolStripMenuItem.Text = "打开";
-            this.打开ToolStripMenuItem.Click += new System.EventHandler(this.打开ToolStripMenuItem_Click);
+            this.ToolStripMenuItemOpen.Name = "ToolStripMenuItemOpen";
+            this.ToolStripMenuItemOpen.Size = new System.Drawing.Size(212, 26);
+            this.ToolStripMenuItemOpen.Text = "打开";
+            this.ToolStripMenuItemOpen.Click += new System.EventHandler(this.ToolStripMenuItemOpen_Click);
             // 
-            // 保存ToolStripMenuItem
+            // ToolStripMenuItemSave
             // 
-            this.保存ToolStripMenuItem.Name = "保存ToolStripMenuItem";
-            this.保存ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.保存ToolStripMenuItem.Text = "保存";
-            this.保存ToolStripMenuItem.Click += new System.EventHandler(this.保存ToolStripMenuItem_Click);
+            this.ToolStripMenuItemSave.Name = "ToolStripMenuItemSave";
+            this.ToolStripMenuItemSave.Size = new System.Drawing.Size(212, 26);
+            this.ToolStripMenuItemSave.Text = "保存";
+            this.ToolStripMenuItemSave.Click += new System.EventHandler(this.ToolStripMenuItemSave_Click);
             // 
-            // 另存为ToolStripMenuItem
+            // ToolStripMenuItemSaveAs
             // 
-            this.另存为ToolStripMenuItem.Name = "另存为ToolStripMenuItem";
-            this.另存为ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.另存为ToolStripMenuItem.Text = "另存为";
+            this.ToolStripMenuItemSaveAs.Name = "ToolStripMenuItemSaveAs";
+            this.ToolStripMenuItemSaveAs.Size = new System.Drawing.Size(212, 26);
+            this.ToolStripMenuItemSaveAs.Text = "另存为";
+            this.ToolStripMenuItemSaveAs.Click += new System.EventHandler(this.ToolStripMenuItemSaveAs_Click);
             // 
-            // 最近编辑过的图片ToolStripMenuItem
+            // ToolStripMenuItemEdited
             // 
-            this.最近编辑过的图片ToolStripMenuItem.Name = "最近编辑过的图片ToolStripMenuItem";
-            this.最近编辑过的图片ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.最近编辑过的图片ToolStripMenuItem.Text = "最近编辑过的图片";
+            this.ToolStripMenuItemEdited.Name = "ToolStripMenuItemEdited";
+            this.ToolStripMenuItemEdited.Size = new System.Drawing.Size(212, 26);
+            this.ToolStripMenuItemEdited.Text = "最近编辑过的图片";
+            this.ToolStripMenuItemEdited.Click += new System.EventHandler(this.ToolStripMenuItemEdited_Click);
             // 
-            // 编辑ToolStripMenuItem
+            // ToolStripMenuItemEdit
             // 
-            this.编辑ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.撤销ToolStripMenuItem,
-            this.恢复ToolStripMenuItem,
-            this.重做ToolStripMenuItem,
-            this.尺寸ToolStripMenuItem,
-            this.裁剪ToolStripMenuItem,
-            this.插入ToolStripMenuItem});
-            this.编辑ToolStripMenuItem.Name = "编辑ToolStripMenuItem";
-            this.编辑ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
-            this.编辑ToolStripMenuItem.Text = "编辑";
-            this.编辑ToolStripMenuItem.Click += new System.EventHandler(this.编辑ToolStripMenuItem_Click);
+            this.ToolStripMenuItemEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripMenuItemUndo,
+            this.ToolStripMenuItemRedo,
+            this.ToolStripMenuItemRework,
+            this.ToolStripMenuItemResize,
+            this.ToolStripMenuItemCut,
+            this.ToolStripMenuItemInsert});
+            this.ToolStripMenuItemEdit.Name = "ToolStripMenuItemEdit";
+            this.ToolStripMenuItemEdit.Size = new System.Drawing.Size(53, 24);
+            this.ToolStripMenuItemEdit.Text = "编辑";
             // 
-            // 撤销ToolStripMenuItem
+            // ToolStripMenuItemUndo
             // 
-            this.撤销ToolStripMenuItem.Name = "撤销ToolStripMenuItem";
-            this.撤销ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.撤销ToolStripMenuItem.Text = "撤销";
+            this.ToolStripMenuItemUndo.Name = "ToolStripMenuItemUndo";
+            this.ToolStripMenuItemUndo.Size = new System.Drawing.Size(152, 26);
+            this.ToolStripMenuItemUndo.Text = "撤销";
+            this.ToolStripMenuItemUndo.Click += new System.EventHandler(this.ToolStripMenuItemUndo_Click);
             // 
-            // 恢复ToolStripMenuItem
+            // ToolStripMenuItemRedo
             // 
-            this.恢复ToolStripMenuItem.Name = "恢复ToolStripMenuItem";
-            this.恢复ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.恢复ToolStripMenuItem.Text = "恢复";
+            this.ToolStripMenuItemRedo.Name = "ToolStripMenuItemRedo";
+            this.ToolStripMenuItemRedo.Size = new System.Drawing.Size(152, 26);
+            this.ToolStripMenuItemRedo.Text = "恢复";
+            this.ToolStripMenuItemRedo.Click += new System.EventHandler(this.ToolStripMenuItemRedo_Click);
             // 
-            // 重做ToolStripMenuItem
+            // ToolStripMenuItemRework
             // 
-            this.重做ToolStripMenuItem.Name = "重做ToolStripMenuItem";
-            this.重做ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.重做ToolStripMenuItem.Text = "重做";
+            this.ToolStripMenuItemRework.Name = "ToolStripMenuItemRework";
+            this.ToolStripMenuItemRework.Size = new System.Drawing.Size(152, 26);
+            this.ToolStripMenuItemRework.Text = "重做";
+            this.ToolStripMenuItemRework.Click += new System.EventHandler(this.ToolStripMenuItemRework_Click);
             // 
-            // 尺寸ToolStripMenuItem
+            // ToolStripMenuItemResize
             // 
-            this.尺寸ToolStripMenuItem.Name = "尺寸ToolStripMenuItem";
-            this.尺寸ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.尺寸ToolStripMenuItem.Text = "修改尺寸";
+            this.ToolStripMenuItemResize.Name = "ToolStripMenuItemResize";
+            this.ToolStripMenuItemResize.Size = new System.Drawing.Size(152, 26);
+            this.ToolStripMenuItemResize.Text = "修改尺寸";
+            this.ToolStripMenuItemResize.Click += new System.EventHandler(this.ToolStripMenuItemResize_Click);
             // 
-            // 裁剪ToolStripMenuItem
+            // ToolStripMenuItemCut
             // 
-            this.裁剪ToolStripMenuItem.Name = "裁剪ToolStripMenuItem";
-            this.裁剪ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.裁剪ToolStripMenuItem.Text = "裁剪图片";
+            this.ToolStripMenuItemCut.Name = "ToolStripMenuItemCut";
+            this.ToolStripMenuItemCut.Size = new System.Drawing.Size(152, 26);
+            this.ToolStripMenuItemCut.Text = "裁剪图片";
+            this.ToolStripMenuItemCut.Click += new System.EventHandler(this.ToolStripMenuItemCut_Click);
             // 
-            // 插入ToolStripMenuItem
+            // ToolStripMenuItemInsert
             // 
-            this.插入ToolStripMenuItem.Name = "插入ToolStripMenuItem";
-            this.插入ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.插入ToolStripMenuItem.Text = "插入图片";
-            this.插入ToolStripMenuItem.Click += new System.EventHandler(this.插入ToolStripMenuItem_Click);
+            this.ToolStripMenuItemInsert.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.ToolStripMenuItemInsert.Name = "ToolStripMenuItemInsert";
+            this.ToolStripMenuItemInsert.Size = new System.Drawing.Size(152, 26);
+            this.ToolStripMenuItemInsert.Text = "插入图片";
+            this.ToolStripMenuItemInsert.Click += new System.EventHandler(this.ToolStripMenuItemInsert_Click);
             // 
-            // 帮助ToolStripMenuItem
+            // ToolStripMenuItemHelp
             // 
-            this.帮助ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.查看帮助ToolStripMenuItem,
-            this.关于ToolStripMenuItem});
-            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
-            this.帮助ToolStripMenuItem.Text = "帮助";
+            this.ToolStripMenuItemHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripMenuItemViewHelp,
+            this.ToolStripMenuItemAbout});
+            this.ToolStripMenuItemHelp.Name = "ToolStripMenuItemHelp";
+            this.ToolStripMenuItemHelp.Size = new System.Drawing.Size(53, 24);
+            this.ToolStripMenuItemHelp.Text = "帮助";
             // 
-            // 查看帮助ToolStripMenuItem
+            // ToolStripMenuItemViewHelp
             // 
-            this.查看帮助ToolStripMenuItem.Name = "查看帮助ToolStripMenuItem";
-            this.查看帮助ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.查看帮助ToolStripMenuItem.Text = "查看帮助";
+            this.ToolStripMenuItemViewHelp.Name = "ToolStripMenuItemViewHelp";
+            this.ToolStripMenuItemViewHelp.Size = new System.Drawing.Size(201, 26);
+            this.ToolStripMenuItemViewHelp.Text = "查看帮助";
+            this.ToolStripMenuItemViewHelp.Click += new System.EventHandler(this.ToolStripMenuItemViewHelp_Click);
             // 
-            // 关于ToolStripMenuItem
+            // ToolStripMenuItemAbout
             // 
-            this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
-            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.关于ToolStripMenuItem.Text = "关于 图片处理器";
+            this.ToolStripMenuItemAbout.Name = "ToolStripMenuItemAbout";
+            this.ToolStripMenuItemAbout.Size = new System.Drawing.Size(201, 26);
+            this.ToolStripMenuItemAbout.Text = "关于 图片处理器";
+            this.ToolStripMenuItemAbout.Click += new System.EventHandler(this.ToolStripMenuItemAbout_Click);
             // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.文件ToolStripMenuItem,
-            this.编辑ToolStripMenuItem,
-            this.帮助ToolStripMenuItem});
+            this.ToolStripMenuItemFile,
+            this.ToolStripMenuItemEdit,
+            this.ToolStripMenuItemHelp});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1261, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1257, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // btnESelfAdp
             // 
@@ -1179,61 +1228,41 @@ namespace ImgEdit
             this.btnFlip.Text = "翻转";
             this.btnFlip.UseVisualStyleBackColor = true;
             // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
             // btnEnterBatch
             // 
             this.btnEnterBatch.Location = new System.Drawing.Point(16, 644);
+            this.btnEnterBatch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEnterBatch.Name = "btnEnterBatch";
-            this.btnEnterBatch.Size = new System.Drawing.Size(146, 32);
+            this.btnEnterBatch.Size = new System.Drawing.Size(147, 32);
             this.btnEnterBatch.TabIndex = 11;
             this.btnEnterBatch.Text = "进入批处理";
             this.btnEnterBatch.UseVisualStyleBackColor = true;
-            this.btnEnterBatch.Click += new System.EventHandler(this.button8_Click);
             // 
-            // lblSDValue
+            // btnDoSticker
             // 
-            this.lblSDValue.AutoSize = true;
-            this.lblSDValue.Location = new System.Drawing.Point(233, 188);
-            this.lblSDValue.Name = "lblSDValue";
-            this.lblSDValue.Size = new System.Drawing.Size(15, 15);
-            this.lblSDValue.TabIndex = 21;
-            this.lblSDValue.Text = "0";
+            this.btnDoSticker.Location = new System.Drawing.Point(68, 491);
+            this.btnDoSticker.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDoSticker.Name = "btnDoSticker";
+            this.btnDoSticker.Size = new System.Drawing.Size(147, 32);
+            this.btnDoSticker.TabIndex = 17;
+            this.btnDoSticker.Text = "应用贴纸";
+            this.btnDoSticker.UseVisualStyleBackColor = true;
             // 
-            // lblHDValue
+            // btnStartBrush
             // 
-            this.lblHDValue.AutoSize = true;
-            this.lblHDValue.Location = new System.Drawing.Point(233, 130);
-            this.lblHDValue.Name = "lblHDValue";
-            this.lblHDValue.Size = new System.Drawing.Size(15, 15);
-            this.lblHDValue.TabIndex = 20;
-            this.lblHDValue.Text = "0";
-            // 
-            // lblDBDValue
-            // 
-            this.lblDBDValue.AutoSize = true;
-            this.lblDBDValue.Location = new System.Drawing.Point(233, 79);
-            this.lblDBDValue.Name = "lblDBDValue";
-            this.lblDBDValue.Size = new System.Drawing.Size(15, 15);
-            this.lblDBDValue.TabIndex = 19;
-            this.lblDBDValue.Text = "0";
-            // 
-            // lblLDValue
-            // 
-            this.lblLDValue.AutoSize = true;
-            this.lblLDValue.Location = new System.Drawing.Point(233, 28);
-            this.lblLDValue.Name = "lblLDValue";
-            this.lblLDValue.Size = new System.Drawing.Size(15, 15);
-            this.lblLDValue.TabIndex = 18;
-            this.lblLDValue.Text = "0";
+            this.btnStartBrush.Location = new System.Drawing.Point(72, 474);
+            this.btnStartBrush.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStartBrush.Name = "btnStartBrush";
+            this.btnStartBrush.Size = new System.Drawing.Size(147, 32);
+            this.btnStartBrush.TabIndex = 14;
+            this.btnStartBrush.Text = "开始涂鸦";
+            this.btnStartBrush.UseVisualStyleBackColor = true;
             // 
             // FormImgEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1261, 718);
+            this.ClientSize = new System.Drawing.Size(1257, 731);
             this.Controls.Add(this.btnEnterBatch);
             this.Controls.Add(this.btnFlip);
             this.Controls.Add(this.btnRotationR);
@@ -1250,7 +1279,6 @@ namespace ImgEdit
             this.Name = "FormImgEdit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "图片编辑器";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.tctrlOper.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -1295,20 +1323,20 @@ namespace ImgEdit
         private System.Windows.Forms.TrackBar tkbESize;
         private System.Windows.Forms.Label lblESizeValue;
         private System.Windows.Forms.PictureBox pbxImg;
-        private System.Windows.Forms.ToolStripMenuItem 文件ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 新建ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 打开ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 保存ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 编辑ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 尺寸ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 裁剪ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 查看帮助ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 关于ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemFile;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemNew;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemOpen;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemSave;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemEdit;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemResize;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemCut;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemHelp;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemViewHelp;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemAbout;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Button btnESelfAdp;
         private System.Windows.Forms.Button btnEOriSize;
-        private System.Windows.Forms.ToolStripMenuItem 插入ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemInsert;
         private System.Windows.Forms.TrackBar tkbDBD;
         private System.Windows.Forms.TrackBar tkbLD;
         private System.Windows.Forms.Button btnRotationL;
@@ -1329,7 +1357,7 @@ namespace ImgEdit
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox gbxBColor;
         private System.Windows.Forms.RadioButton rbtBOthColor;
-        private System.Windows.Forms.RadioButton rbtBMosaic;
+        private System.Windows.Forms.RadioButton rbtMosaic;
         private System.Windows.Forms.RadioButton rbtBPurple;
         private System.Windows.Forms.RadioButton rbtBWhite;
         private System.Windows.Forms.RadioButton rbtBGreen;
@@ -1359,34 +1387,33 @@ namespace ImgEdit
         private System.Windows.Forms.Button btnChsFont;
         private System.Windows.Forms.Label lblFSize;
         private System.Windows.Forms.Label lblFont;
-        private System.Windows.Forms.FontDialog fontDialog1;
-        private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.GroupBox gbxCartoon;
-        private System.Windows.Forms.RadioButton radioButton31;
-        private System.Windows.Forms.RadioButton radioButton32;
-        private System.Windows.Forms.RadioButton radioButton33;
-        private System.Windows.Forms.RadioButton radioButton34;
-        private System.Windows.Forms.RadioButton radioButton35;
-        private System.Windows.Forms.RadioButton radioButton36;
+        private System.Windows.Forms.RadioButton rbtKT6;
+        private System.Windows.Forms.RadioButton rbtKT4;
+        private System.Windows.Forms.RadioButton rbtKT2;
+        private System.Windows.Forms.RadioButton rbtKT5;
+        private System.Windows.Forms.RadioButton rbtKT3;
+        private System.Windows.Forms.RadioButton rbtKT1;
         private System.Windows.Forms.GroupBox gbxBubble;
-        private System.Windows.Forms.RadioButton radioButton25;
-        private System.Windows.Forms.RadioButton radioButton26;
-        private System.Windows.Forms.RadioButton radioButton27;
-        private System.Windows.Forms.RadioButton radioButton28;
-        private System.Windows.Forms.RadioButton radioButton29;
-        private System.Windows.Forms.RadioButton radioButton30;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
-        private System.Windows.Forms.ToolStripMenuItem 撤销ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 重做ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 另存为ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 恢复ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 最近编辑过的图片ToolStripMenuItem;
+        private System.Windows.Forms.RadioButton rbtQP6;
+        private System.Windows.Forms.RadioButton rbtQP4;
+        private System.Windows.Forms.RadioButton rbtQP2;
+        private System.Windows.Forms.RadioButton rbtQP5;
+        private System.Windows.Forms.RadioButton rbtQP3;
+        private System.Windows.Forms.RadioButton rbtQP1;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemUndo;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemRework;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemSaveAs;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemRedo;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemEdited;
         private System.Windows.Forms.Button btnEnterBatch;
         private System.Windows.Forms.Label lblSDValue;
         private System.Windows.Forms.Label lblHDValue;
         private System.Windows.Forms.Label lblDBDValue;
         private System.Windows.Forms.Label lblLDValue;
+        private System.Windows.Forms.Button btnDoFilter;
+        private System.Windows.Forms.Button btnDoSticker;
+        private System.Windows.Forms.Button btnStartBrush;
     }
 }
 
